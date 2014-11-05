@@ -1,0 +1,59 @@
+/*
+body {
+  font: 13px Helvetica, arial, freesans, clean, sans-serif;
+  line-height: 1.4;
+  color: #333333;
+  background: #fff;
+  padding: 50px;
+}
+*/
+.colWrapper{
+    height:25px;
+    width:252px;
+    position:relative;
+    border:1px solid #ccc;
+    text-align: center;
+    /*margin: 0 auto;*/
+}
+.barContainer{
+    position:absolute;
+    height:100%;
+    margin: 0 auto;
+}
+.bar{
+    height:100%;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+}
+.barlabel { 
+    display:inline-block; 
+    vertical-align:middle 
+}
+.scrollFix {
+    line-height: 1.35;
+    /*overflow: hidden;
+    white-space: nowrap;*/
+    width: 280px; 
+    font-family: 'Lato','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.maplabels {
+     color: red;
+     background-color: white;
+     font-family: "Lucida Grande", "Arial", sans-serif;
+     font-size: 10px;
+     font-weight: bold;
+     text-align: center;
+     width: 40px;     
+     border: 2px solid black;
+     white-space: nowrap;
+}
+.maplabels2 {
+    color: black; 
+    background-color: #FF8075; 
+    font-family: 'Lato','Helvetica Neue',Helvetica,Arial,sans-serif; 
+    font-size: 11px; 
+    text-align: center; 
+    width: 14px;
+}
