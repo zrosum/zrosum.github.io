@@ -52,1995 +52,1511 @@
   </head>
 
   
-  <body>
+  <body style="width: 100%; height: 100%;">
     <header>
 
 </header>
 
-    <div class="container">
 
-
-      <div class="jumbotron text-center" style="margin-bottom: 10px; background-image: url('img/background.jpg'); color: #fff; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">
-        <h1>Burrito Boston</h1>
-        <p>Burrito Destinations Around Boston, MA</p>
-        <!-- Go to www.addthis.com/dashboard to customize your tools -->
-        <div class="addthis_sharing_toolbox"></div>
-        <!--<p class="pull-right" style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">Mountain Biking Destinations in and around Atlanta, GA</p>-->
-      </div>
-
-
-      <div class="content">
         
-<div class="btn-group btn-group-justified">
-  <a class="btn btn-default" href="map.html"><i class="fa fa-map-marker"></i> Map View</a>
-  <a class="btn btn-default" href="about.html"><i class="fa fa-question-circle"></i> About</a>
- </div>
-       <p></p>
- <div class="panel-group" id="accordion">
- 
-    
-      <div class="panel panel-default">
-    <a data-toggle="collapse" data-parent="#accordion" href="#Anna&#39;s Taqueria (Coolidge Corner)Brookline" style="text-decoration: none; color:#000000;">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#annas-taqueria-coolidge-cornerBrookline">
-                Anna&#39;s Taqueria (Coolidge Corner) - Brookline
-                </a>
-            </h3>
-        </div>
-    </a>
-    <div id="annas-taqueria-coolidge-cornerBrookline" class="panel-collapse collapse">
-    <div class="panel-body">
-    <div class="row">
 
-       <div class="col-xs-12 col-sm-6 col-md-4">
+<div id="map" style="width: 100%; height: 100%;"></div>
+<div class="container">
+    <a href="list.html" class="btn btn-primary btn-sm" style="position: fixed; bottom: 1em; right: 1em; z-index: 99;"><in class="fa fa-list"></in> Burrito Boston List View</a>
 
-           <img border="0" src="https://maps.googleapis.com/maps/api/staticmap?center=1412 Beacon Street, Brookline, MA&markers=1412 Beacon Street, Brookline, MA&zoom=14&size=200x150" alt="Anna&#39;s Taqueria (Coolidge Corner)"/>
-           <p></p>
-           <address>1412 Beacon Street, Brookline, MA</address>
-           <p>9 am - 11:30 pm, 7 days a week</p>
-
-
-               
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="col-xs-6 text-center">
-
-                <div class="btn-group-vertical">
-                    <a class="btn btn-default" target="_blank" href="http://www.annastaqueria.com/"><i class="fa fa-star"></i> Website</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.annastaqueria.com/lunch_and_dinner.html"><i class="fa fa-cutlery"></i> Menu</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.yelp.com/biz/annas-taqueria-brookline"><i class="fa fa-yelp"></i> Yelp</a>
-                </div>
-
-            </div>        
-            <div class="col-xs-6 text-center">
-                  <div class="btn-group-vertical">
-                      <a class="btn btn-default" target= "_blank" href="https://www.google.com/search?site=&tbm=isch&q=Anna&#39;s Taqueria (Coolidge Corner) burrito Brookline"><i class="fa fa-picture-o"></i> Pictures</a>
-                      <a class="btn btn-default" target= "_blank" href="http://maps.google.com/maps?daddr=1412 Beacon Street, Brookline, MA"><i class="fa fa-map-marker"></i> Directions</a>
-                  </div>
-            </div>
-        </div>
-        
-        <div class="col-xs-12 col-sm-12 col-md-8"></div>
-
-     </div>
-    </div>
-  </div>
+    <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown" style="position: fixed; top: 1em; left: 2em; z-index: 99;">
+        Show <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" role="menu" style="position: fixed; top: 3em; left: 2em">
+        <li><a  id="arlington">Arlington</a></li>
+        <li><a id="boston">Boston</a></li>
+        <li><a  id="brighton">Brighton</a></li>
+        <li><a  id="brookline">Brookline</a></li>
+        <li><a  id="cambridge">Cambridge</a></li>
+        <li><a  id="eastboston">East Boston</a></li>
+        <li><a  id="jamaicaplain">Jamaica Plain</a></li>
+        <li><a  id="medford">Medford</a></li>
+        <li><a  id="roslindale">Roslindale</a></li>
+        <li><a  id="somerville">Somerville</a></li>
+        <li class="divider"></li>
+        <li><a id="all">All</a></li>
+    </ul>
 </div>
 
-    
-      <div class="panel panel-default">
-    <a data-toggle="collapse" data-parent="#accordion" href="#Anna&#39;s Taqueria (Davis)Somerville" style="text-decoration: none; color:#000000;">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#annas-taqueria-davisSomerville">
-                Anna&#39;s Taqueria (Davis) - Somerville
-                </a>
-            </h3>
-        </div>
-    </a>
-    <div id="annas-taqueria-davisSomerville" class="panel-collapse collapse">
-    <div class="panel-body">
-    <div class="row">
 
-       <div class="col-xs-12 col-sm-6 col-md-4">
+<script type=text id='545701c535bce71c8c7e03a6'>
+       <div class="scrollFix">
 
-           <img border="0" src="https://maps.googleapis.com/maps/api/staticmap?center=236A Elm Street, Somerville, MA&markers=236A Elm Street, Somerville, MA&zoom=14&size=200x150" alt="Anna&#39;s Taqueria (Davis)"/>
-           <p></p>
-           <address>236A Elm Street, Somerville, MA</address>
-           <p>9 am - 11:30 pm, 7 days a week</p>
+    <h4 class="bg-primary" style="padding: 3px; border-radius: 3px;">
+        &nbsp;Anna&#39;s Taqueria (Coolidge Corner)
+    </h4>
 
 
-               
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="col-xs-6 text-center">
+    <p></p>
+    <address>1412 Beacon Street, Brookline, MA</address>
+    <p></p>
 
-                <div class="btn-group-vertical">
-                    <a class="btn btn-default" target="_blank" href="http://www.annastaqueria.com/"><i class="fa fa-star"></i> Website</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.annastaqueria.com/lunch_and_dinner.html"><i class="fa fa-cutlery"></i> Menu</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.yelp.com/biz/annas-taqueria-somerville-2"><i class="fa fa-yelp"></i> Yelp</a>
-                </div>
 
-            </div>        
-            <div class="col-xs-6 text-center">
-                  <div class="btn-group-vertical">
-                      <a class="btn btn-default" target= "_blank" href="https://www.google.com/search?site=&tbm=isch&q=Anna&#39;s Taqueria (Davis) burrito Somerville"><i class="fa fa-picture-o"></i> Pictures</a>
-                      <a class="btn btn-default" target= "_blank" href="http://maps.google.com/maps?daddr=236A Elm Street, Somerville, MA"><i class="fa fa-map-marker"></i> Directions</a>
-                  </div>
-            </div>
-        </div>
-        
-        <div class="col-xs-12 col-sm-12 col-md-8"></div>
-
-     </div>
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.yelp.com/biz/annas-taqueria-brookline"><i class="fa fa-yelp"></i> Yelp</a>
     </div>
-  </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.annastaqueria.com/"><i class="fa fa-star"></i> Website</a>
+        <a class="btn btn-default" target="_blank" href="http://www.annastaqueria.com/lunch_and_dinner.html"><i class="fa fa-cutlery"></i> Menu</a>
+    </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="https://www.google.com/search?site=&tbm=isch&q=Anna&#39;s Taqueria (Coolidge Corner) burrito Brookline"><i class="fa fa-picture-o"></i> Pictures</a>
+        <a class="btn btn-default" target="_blank" href="http://maps.google.com/maps?daddr=1412 Beacon Street, Brookline, MA"><i class="fa fa-map-marker"></i> Directions</a>
+    </div>
+
+
 </div>
 
-    
-      <div class="panel panel-default">
-    <a data-toggle="collapse" data-parent="#accordion" href="#Anna&#39;s Taqueria (JFK Corner)Brookline" style="text-decoration: none; color:#000000;">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#annas-taqueria-jfk-cornerBrookline">
-                Anna&#39;s Taqueria (JFK Corner) - Brookline
-                </a>
-            </h3>
-        </div>
-    </a>
-    <div id="annas-taqueria-jfk-cornerBrookline" class="panel-collapse collapse">
-    <div class="panel-body">
-    <div class="row">
+      </script>
 
-       <div class="col-xs-12 col-sm-6 col-md-4">
+<script type=text id='545701c535bce71c8c7e03aa'>
+       <div class="scrollFix">
 
-           <img border="0" src="https://maps.googleapis.com/maps/api/staticmap?center=446 Harvard Street, Brookline, MA&markers=446 Harvard Street, Brookline, MA&zoom=14&size=200x150" alt="Anna&#39;s Taqueria (JFK Corner)"/>
-           <p></p>
-           <address>446 Harvard Street, Brookline, MA</address>
-           <p>9 am - 11:30 pm, 7 days a week</p>
+    <h4 class="bg-primary" style="padding: 3px; border-radius: 3px;">
+        &nbsp;Anna&#39;s Taqueria (Davis)
+    </h4>
 
 
-               
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="col-xs-6 text-center">
+    <p></p>
+    <address>236A Elm Street, Somerville, MA</address>
+    <p></p>
 
-                <div class="btn-group-vertical">
-                    <a class="btn btn-default" target="_blank" href="http://www.annastaqueria.com/"><i class="fa fa-star"></i> Website</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.annastaqueria.com/lunch_and_dinner.html"><i class="fa fa-cutlery"></i> Menu</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.yelp.com/biz/annas-taqueria-brookline-2"><i class="fa fa-yelp"></i> Yelp</a>
-                </div>
 
-            </div>        
-            <div class="col-xs-6 text-center">
-                  <div class="btn-group-vertical">
-                      <a class="btn btn-default" target= "_blank" href="https://www.google.com/search?site=&tbm=isch&q=Anna&#39;s Taqueria (JFK Corner) burrito Brookline"><i class="fa fa-picture-o"></i> Pictures</a>
-                      <a class="btn btn-default" target= "_blank" href="http://maps.google.com/maps?daddr=446 Harvard Street, Brookline, MA"><i class="fa fa-map-marker"></i> Directions</a>
-                  </div>
-            </div>
-        </div>
-        
-        <div class="col-xs-12 col-sm-12 col-md-8"></div>
-
-     </div>
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.yelp.com/biz/annas-taqueria-somerville-2"><i class="fa fa-yelp"></i> Yelp</a>
     </div>
-  </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.annastaqueria.com/"><i class="fa fa-star"></i> Website</a>
+        <a class="btn btn-default" target="_blank" href="http://www.annastaqueria.com/lunch_and_dinner.html"><i class="fa fa-cutlery"></i> Menu</a>
+    </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="https://www.google.com/search?site=&tbm=isch&q=Anna&#39;s Taqueria (Davis) burrito Somerville"><i class="fa fa-picture-o"></i> Pictures</a>
+        <a class="btn btn-default" target="_blank" href="http://maps.google.com/maps?daddr=236A Elm Street, Somerville, MA"><i class="fa fa-map-marker"></i> Directions</a>
+    </div>
+
+
 </div>
 
-    
-      <div class="panel panel-default">
-    <a data-toggle="collapse" data-parent="#accordion" href="#Anna&#39;s Taqueria (MGH)Boston" style="text-decoration: none; color:#000000;">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#annas-taqueria-mghBoston">
-                Anna&#39;s Taqueria (MGH) - Boston
-                </a>
-            </h3>
-        </div>
-    </a>
-    <div id="annas-taqueria-mghBoston" class="panel-collapse collapse">
-    <div class="panel-body">
-    <div class="row">
+      </script>
 
-       <div class="col-xs-12 col-sm-6 col-md-4">
+<script type=text id='545701c535bce71c8c7e03a7'>
+       <div class="scrollFix">
 
-           <img border="0" src="https://maps.googleapis.com/maps/api/staticmap?center=242 Cambridge Street, Boston, MA&markers=242 Cambridge Street, Boston, MA&zoom=14&size=200x150" alt="Anna&#39;s Taqueria (MGH)"/>
-           <p></p>
-           <address>242 Cambridge Street, Boston, MA</address>
-           <p>7 am - 11:30 pm, 7 days a week</p>
+    <h4 class="bg-primary" style="padding: 3px; border-radius: 3px;">
+        &nbsp;Anna&#39;s Taqueria (JFK Corner)
+    </h4>
 
 
-               
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="col-xs-6 text-center">
+    <p></p>
+    <address>446 Harvard Street, Brookline, MA</address>
+    <p></p>
 
-                <div class="btn-group-vertical">
-                    <a class="btn btn-default" target="_blank" href="http://www.annastaqueria.com/"><i class="fa fa-star"></i> Website</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.annastaqueria.com/lunch_and_dinner.html"><i class="fa fa-cutlery"></i> Menu</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.yelp.com/biz/annas-taqueria-boston"><i class="fa fa-yelp"></i> Yelp</a>
-                </div>
 
-            </div>        
-            <div class="col-xs-6 text-center">
-                  <div class="btn-group-vertical">
-                      <a class="btn btn-default" target= "_blank" href="https://www.google.com/search?site=&tbm=isch&q=Anna&#39;s Taqueria (MGH) burrito Boston"><i class="fa fa-picture-o"></i> Pictures</a>
-                      <a class="btn btn-default" target= "_blank" href="http://maps.google.com/maps?daddr=242 Cambridge Street, Boston, MA"><i class="fa fa-map-marker"></i> Directions</a>
-                  </div>
-            </div>
-        </div>
-        
-        <div class="col-xs-12 col-sm-12 col-md-8"></div>
-
-     </div>
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.yelp.com/biz/annas-taqueria-brookline-2"><i class="fa fa-yelp"></i> Yelp</a>
     </div>
-  </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.annastaqueria.com/"><i class="fa fa-star"></i> Website</a>
+        <a class="btn btn-default" target="_blank" href="http://www.annastaqueria.com/lunch_and_dinner.html"><i class="fa fa-cutlery"></i> Menu</a>
+    </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="https://www.google.com/search?site=&tbm=isch&q=Anna&#39;s Taqueria (JFK Corner) burrito Brookline"><i class="fa fa-picture-o"></i> Pictures</a>
+        <a class="btn btn-default" target="_blank" href="http://maps.google.com/maps?daddr=446 Harvard Street, Brookline, MA"><i class="fa fa-map-marker"></i> Directions</a>
+    </div>
+
+
 </div>
 
-    
-      <div class="panel panel-default">
-    <a data-toggle="collapse" data-parent="#accordion" href="#Anna&#39;s Taqueria (MIT)Cambridge" style="text-decoration: none; color:#000000;">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#annas-taqueria-mitCambridge">
-                Anna&#39;s Taqueria (MIT) - Cambridge
-                </a>
-            </h3>
-        </div>
-    </a>
-    <div id="annas-taqueria-mitCambridge" class="panel-collapse collapse">
-    <div class="panel-body">
-    <div class="row">
+      </script>
 
-       <div class="col-xs-12 col-sm-6 col-md-4">
+<script type=text id='545701c535bce71c8c7e03ab'>
+       <div class="scrollFix">
 
-           <img border="0" src="https://maps.googleapis.com/maps/api/staticmap?center=84 Massachusetts Avenue, Cambridge, MA&markers=84 Massachusetts Avenue, Cambridge, MA&zoom=14&size=200x150" alt="Anna&#39;s Taqueria (MIT)"/>
-           <p></p>
-           <address>84 Massachusetts Avenue, Cambridge, MA</address>
-           <p>7 am - 11:30 pm, 7 days a week</p>
+    <h4 class="bg-primary" style="padding: 3px; border-radius: 3px;">
+        &nbsp;Anna&#39;s Taqueria (MGH)
+    </h4>
 
 
-               
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="col-xs-6 text-center">
+    <p></p>
+    <address>242 Cambridge Street, Boston, MA</address>
+    <p></p>
 
-                <div class="btn-group-vertical">
-                    <a class="btn btn-default" target="_blank" href="http://www.annastaqueria.com/"><i class="fa fa-star"></i> Website</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.annastaqueria.com/lunch_and_dinner.html"><i class="fa fa-cutlery"></i> Menu</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.yelp.com/biz/annas-taqueria-cambridge-2"><i class="fa fa-yelp"></i> Yelp</a>
-                </div>
 
-            </div>        
-            <div class="col-xs-6 text-center">
-                  <div class="btn-group-vertical">
-                      <a class="btn btn-default" target= "_blank" href="https://www.google.com/search?site=&tbm=isch&q=Anna&#39;s Taqueria (MIT) burrito Cambridge"><i class="fa fa-picture-o"></i> Pictures</a>
-                      <a class="btn btn-default" target= "_blank" href="http://maps.google.com/maps?daddr=84 Massachusetts Avenue, Cambridge, MA"><i class="fa fa-map-marker"></i> Directions</a>
-                  </div>
-            </div>
-        </div>
-        
-        <div class="col-xs-12 col-sm-12 col-md-8"></div>
-
-     </div>
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.yelp.com/biz/annas-taqueria-boston"><i class="fa fa-yelp"></i> Yelp</a>
     </div>
-  </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.annastaqueria.com/"><i class="fa fa-star"></i> Website</a>
+        <a class="btn btn-default" target="_blank" href="http://www.annastaqueria.com/lunch_and_dinner.html"><i class="fa fa-cutlery"></i> Menu</a>
+    </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="https://www.google.com/search?site=&tbm=isch&q=Anna&#39;s Taqueria (MGH) burrito Boston"><i class="fa fa-picture-o"></i> Pictures</a>
+        <a class="btn btn-default" target="_blank" href="http://maps.google.com/maps?daddr=242 Cambridge Street, Boston, MA"><i class="fa fa-map-marker"></i> Directions</a>
+    </div>
+
+
 </div>
 
-    
-      <div class="panel panel-default">
-    <a data-toggle="collapse" data-parent="#accordion" href="#Anna&#39;s Taqueria (Porter)Cambridge" style="text-decoration: none; color:#000000;">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#annas-taqueria-porterCambridge">
-                Anna&#39;s Taqueria (Porter) - Cambridge
-                </a>
-            </h3>
-        </div>
-    </a>
-    <div id="annas-taqueria-porterCambridge" class="panel-collapse collapse">
-    <div class="panel-body">
-    <div class="row">
+      </script>
 
-       <div class="col-xs-12 col-sm-6 col-md-4">
+<script type=text id='545701c535bce71c8c7e03a9'>
+       <div class="scrollFix">
 
-           <img border="0" src="https://maps.googleapis.com/maps/api/staticmap?center=822 Somerville Avenue, Cambridge, MA&markers=822 Somerville Avenue, Cambridge, MA&zoom=14&size=200x150" alt="Anna&#39;s Taqueria (Porter)"/>
-           <p></p>
-           <address>822 Somerville Avenue, Cambridge, MA</address>
-           <p>8 am - 11:30 pm, 7 days a week</p>
+    <h4 class="bg-primary" style="padding: 3px; border-radius: 3px;">
+        &nbsp;Anna&#39;s Taqueria (MIT)
+    </h4>
 
 
-               
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="col-xs-6 text-center">
+    <p></p>
+    <address>84 Massachusetts Avenue, Cambridge, MA</address>
+    <p></p>
 
-                <div class="btn-group-vertical">
-                    <a class="btn btn-default" target="_blank" href="http://www.annastaqueria.com/"><i class="fa fa-star"></i> Website</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.annastaqueria.com/lunch_and_dinner.html"><i class="fa fa-cutlery"></i> Menu</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.yelp.com/biz/annas-taqueria-cambridge"><i class="fa fa-yelp"></i> Yelp</a>
-                </div>
 
-            </div>        
-            <div class="col-xs-6 text-center">
-                  <div class="btn-group-vertical">
-                      <a class="btn btn-default" target= "_blank" href="https://www.google.com/search?site=&tbm=isch&q=Anna&#39;s Taqueria (Porter) burrito Cambridge"><i class="fa fa-picture-o"></i> Pictures</a>
-                      <a class="btn btn-default" target= "_blank" href="http://maps.google.com/maps?daddr=822 Somerville Avenue, Cambridge, MA"><i class="fa fa-map-marker"></i> Directions</a>
-                  </div>
-            </div>
-        </div>
-        
-        <div class="col-xs-12 col-sm-12 col-md-8"></div>
-
-     </div>
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.yelp.com/biz/annas-taqueria-cambridge-2"><i class="fa fa-yelp"></i> Yelp</a>
     </div>
-  </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.annastaqueria.com/"><i class="fa fa-star"></i> Website</a>
+        <a class="btn btn-default" target="_blank" href="http://www.annastaqueria.com/lunch_and_dinner.html"><i class="fa fa-cutlery"></i> Menu</a>
+    </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="https://www.google.com/search?site=&tbm=isch&q=Anna&#39;s Taqueria (MIT) burrito Cambridge"><i class="fa fa-picture-o"></i> Pictures</a>
+        <a class="btn btn-default" target="_blank" href="http://maps.google.com/maps?daddr=84 Massachusetts Avenue, Cambridge, MA"><i class="fa fa-map-marker"></i> Directions</a>
+    </div>
+
+
 </div>
 
-    
-      <div class="panel panel-default">
-    <a data-toggle="collapse" data-parent="#accordion" href="#Baja Betty&#39;s BurritosBrookline" style="text-decoration: none; color:#000000;">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#baja-bettys-burritosBrookline">
-                Baja Betty&#39;s Burritos - Brookline
-                </a>
-            </h3>
-        </div>
-    </a>
-    <div id="baja-bettys-burritosBrookline" class="panel-collapse collapse">
-    <div class="panel-body">
-    <div class="row">
+      </script>
 
-       <div class="col-xs-12 col-sm-6 col-md-4">
+<script type=text id='545701c535bce71c8c7e03a8'>
+       <div class="scrollFix">
 
-           <img border="0" src="https://maps.googleapis.com/maps/api/staticmap?center=3 Harvard Sq.,Brookline, MA&markers=3 Harvard Sq.,Brookline, MA&zoom=14&size=200x150" alt="Baja Betty&#39;s Burritos"/>
-           <p></p>
-           <address>3 Harvard Sq.,Brookline, MA</address>
-           <p></p>
+    <h4 class="bg-primary" style="padding: 3px; border-radius: 3px;">
+        &nbsp;Anna&#39;s Taqueria (Porter)
+    </h4>
 
 
-               
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="col-xs-6 text-center">
+    <p></p>
+    <address>822 Somerville Avenue, Cambridge, MA</address>
+    <p></p>
 
-                <div class="btn-group-vertical">
-                    <a class="btn btn-default" target="_blank" href="http://bajabettys.com/"><i class="fa fa-star"></i> Website</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.yelp.com/menu/baja-bettys-burritos-brookline-village"><i class="fa fa-cutlery"></i> Menu</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.yelp.com/biz/baja-bettys-burritos-brookline-village"><i class="fa fa-yelp"></i> Yelp</a>
-                </div>
 
-            </div>        
-            <div class="col-xs-6 text-center">
-                  <div class="btn-group-vertical">
-                      <a class="btn btn-default" target= "_blank" href="https://www.google.com/search?site=&tbm=isch&q=Baja Betty&#39;s Burritos burrito Brookline"><i class="fa fa-picture-o"></i> Pictures</a>
-                      <a class="btn btn-default" target= "_blank" href="http://maps.google.com/maps?daddr=3 Harvard Sq.,Brookline, MA"><i class="fa fa-map-marker"></i> Directions</a>
-                  </div>
-            </div>
-        </div>
-        
-        <div class="col-xs-12 col-sm-12 col-md-8"></div>
-
-     </div>
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.yelp.com/biz/annas-taqueria-cambridge"><i class="fa fa-yelp"></i> Yelp</a>
     </div>
-  </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.annastaqueria.com/"><i class="fa fa-star"></i> Website</a>
+        <a class="btn btn-default" target="_blank" href="http://www.annastaqueria.com/lunch_and_dinner.html"><i class="fa fa-cutlery"></i> Menu</a>
+    </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="https://www.google.com/search?site=&tbm=isch&q=Anna&#39;s Taqueria (Porter) burrito Cambridge"><i class="fa fa-picture-o"></i> Pictures</a>
+        <a class="btn btn-default" target="_blank" href="http://maps.google.com/maps?daddr=822 Somerville Avenue, Cambridge, MA"><i class="fa fa-map-marker"></i> Directions</a>
+    </div>
+
+
 </div>
 
-    
-      <div class="panel panel-default">
-    <a data-toggle="collapse" data-parent="#accordion" href="#Beantown Taqueria 1Cambridge" style="text-decoration: none; color:#000000;">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#beantown-taqueria-1Cambridge">
-                Beantown Taqueria 1 - Cambridge
-                </a>
-            </h3>
-        </div>
-    </a>
-    <div id="beantown-taqueria-1Cambridge" class="panel-collapse collapse">
-    <div class="panel-body">
-    <div class="row">
+      </script>
 
-       <div class="col-xs-12 col-sm-6 col-md-4">
+<script type=text id='5459bafb35bce71c8c7e03b2'>
+       <div class="scrollFix">
 
-           <img border="0" src="https://maps.googleapis.com/maps/api/staticmap?center=245 Massachusetts Ave.,Cambridge, MA 02139&markers=245 Massachusetts Ave.,Cambridge, MA 02139&zoom=14&size=200x150" alt="Beantown Taqueria 1"/>
-           <p></p>
-           <address>245 Massachusetts Ave.,Cambridge, MA 02139</address>
-           <p>8am - 11pm Su-W, 8am - 4am Th-Sa</p>
+    <h4 class="bg-primary" style="padding: 3px; border-radius: 3px;">
+        &nbsp;Baja Betty&#39;s Burritos
+    </h4>
 
 
-               
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="col-xs-6 text-center">
+    <p></p>
+    <address>3 Harvard Sq.,Brookline, MA</address>
+    <p></p>
 
-                <div class="btn-group-vertical">
-                    <a class="btn btn-default" target="_blank" href="http://www.beantowntaqueria.com/"><i class="fa fa-star"></i> Website</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.beantowntaqueria.com/menu"><i class="fa fa-cutlery"></i> Menu</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.yelp.com/biz/beantown-taqueria-cambridge-2"><i class="fa fa-yelp"></i> Yelp</a>
-                </div>
 
-            </div>        
-            <div class="col-xs-6 text-center">
-                  <div class="btn-group-vertical">
-                      <a class="btn btn-default" target= "_blank" href="https://www.google.com/search?site=&tbm=isch&q=Beantown Taqueria 1 burrito Cambridge"><i class="fa fa-picture-o"></i> Pictures</a>
-                      <a class="btn btn-default" target= "_blank" href="http://maps.google.com/maps?daddr=245 Massachusetts Ave.,Cambridge, MA 02139"><i class="fa fa-map-marker"></i> Directions</a>
-                  </div>
-            </div>
-        </div>
-        
-        <div class="col-xs-12 col-sm-12 col-md-8"></div>
-
-     </div>
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.yelp.com/biz/baja-bettys-burritos-brookline-village"><i class="fa fa-yelp"></i> Yelp</a>
     </div>
-  </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://bajabettys.com/"><i class="fa fa-star"></i> Website</a>
+        <a class="btn btn-default" target="_blank" href="http://www.yelp.com/menu/baja-bettys-burritos-brookline-village"><i class="fa fa-cutlery"></i> Menu</a>
+    </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="https://www.google.com/search?site=&tbm=isch&q=Baja Betty&#39;s Burritos burrito Brookline"><i class="fa fa-picture-o"></i> Pictures</a>
+        <a class="btn btn-default" target="_blank" href="http://maps.google.com/maps?daddr=3 Harvard Sq.,Brookline, MA"><i class="fa fa-map-marker"></i> Directions</a>
+    </div>
+
+
 </div>
 
-    
-      <div class="panel panel-default">
-    <a data-toggle="collapse" data-parent="#accordion" href="#Beantown Taqueria 2Cambridge" style="text-decoration: none; color:#000000;">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#beantown-taqueria-2Cambridge">
-                Beantown Taqueria 2 - Cambridge
-                </a>
-            </h3>
-        </div>
-    </a>
-    <div id="beantown-taqueria-2Cambridge" class="panel-collapse collapse">
-    <div class="panel-body">
-    <div class="row">
+      </script>
 
-       <div class="col-xs-12 col-sm-6 col-md-4">
+<script type=text id='545afe6935bce71c8c7e03bb'>
+       <div class="scrollFix">
 
-           <img border="0" src="https://maps.googleapis.com/maps/api/staticmap?center=148-150 Western Ave.,Cambridge, MA 02139&markers=148-150 Western Ave.,Cambridge, MA 02139&zoom=14&size=200x150" alt="Beantown Taqueria 2"/>
-           <p></p>
-           <address>148-150 Western Ave.,Cambridge, MA 02139</address>
-           <p>8am - 11pm Su-W, 8am - 4am Th-Sa</p>
+    <h4 class="bg-primary" style="padding: 3px; border-radius: 3px;">
+        &nbsp;Beantown Taqueria 1
+    </h4>
 
 
-               
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="col-xs-6 text-center">
+    <p></p>
+    <address>245 Massachusetts Ave.,Cambridge, MA 02139</address>
+    <p></p>
 
-                <div class="btn-group-vertical">
-                    <a class="btn btn-default" target="_blank" href="http://www.beantowntaqueria.com/"><i class="fa fa-star"></i> Website</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.beantowntaqueria.com/menu"><i class="fa fa-cutlery"></i> Menu</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.yelp.com/biz/beantown-taqueria-cambridge"><i class="fa fa-yelp"></i> Yelp</a>
-                </div>
 
-            </div>        
-            <div class="col-xs-6 text-center">
-                  <div class="btn-group-vertical">
-                      <a class="btn btn-default" target= "_blank" href="https://www.google.com/search?site=&tbm=isch&q=Beantown Taqueria 2 burrito Cambridge"><i class="fa fa-picture-o"></i> Pictures</a>
-                      <a class="btn btn-default" target= "_blank" href="http://maps.google.com/maps?daddr=148-150 Western Ave.,Cambridge, MA 02139"><i class="fa fa-map-marker"></i> Directions</a>
-                  </div>
-            </div>
-        </div>
-        
-        <div class="col-xs-12 col-sm-12 col-md-8"></div>
-
-     </div>
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.yelp.com/biz/beantown-taqueria-cambridge-2"><i class="fa fa-yelp"></i> Yelp</a>
     </div>
-  </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.beantowntaqueria.com/"><i class="fa fa-star"></i> Website</a>
+        <a class="btn btn-default" target="_blank" href="http://www.beantowntaqueria.com/menu"><i class="fa fa-cutlery"></i> Menu</a>
+    </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="https://www.google.com/search?site=&tbm=isch&q=Beantown Taqueria 1 burrito Cambridge"><i class="fa fa-picture-o"></i> Pictures</a>
+        <a class="btn btn-default" target="_blank" href="http://maps.google.com/maps?daddr=245 Massachusetts Ave.,Cambridge, MA 02139"><i class="fa fa-map-marker"></i> Directions</a>
+    </div>
+
+
 </div>
 
-    
-      <div class="panel panel-default">
-    <a data-toggle="collapse" data-parent="#accordion" href="#Boca Grande (Brighton)Brighton" style="text-decoration: none; color:#000000;">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#boca-grande-brightonBrighton">
-                Boca Grande (Brighton) - Brighton
-                </a>
-            </h3>
-        </div>
-    </a>
-    <div id="boca-grande-brightonBrighton" class="panel-collapse collapse">
-    <div class="panel-body">
-    <div class="row">
+      </script>
 
-       <div class="col-xs-12 col-sm-6 col-md-4">
+<script type=text id='545afe6935bce71c8c7e03bc'>
+       <div class="scrollFix">
 
-           <img border="0" src="https://maps.googleapis.com/maps/api/staticmap?center=366 Washington St., Brighton, MA&markers=366 Washington St., Brighton, MA&zoom=14&size=200x150" alt="Boca Grande (Brighton)"/>
-           <p></p>
-           <address>366 Washington St., Brighton, MA</address>
-           <p>11 am - 9:30 pm, 7 days a week</p>
+    <h4 class="bg-primary" style="padding: 3px; border-radius: 3px;">
+        &nbsp;Beantown Taqueria 2
+    </h4>
 
 
-               
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="col-xs-6 text-center">
+    <p></p>
+    <address>148-150 Western Ave.,Cambridge, MA 02139</address>
+    <p></p>
 
-                <div class="btn-group-vertical">
-                    <a class="btn btn-default" target="_blank" href="http://www.bocagranderestaurant.com/"><i class="fa fa-star"></i> Website</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.bocagranderestaurant.com/menu.html"><i class="fa fa-cutlery"></i> Menu</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.yelp.com/biz/boca-grande-restaurant-brighton"><i class="fa fa-yelp"></i> Yelp</a>
-                </div>
 
-            </div>        
-            <div class="col-xs-6 text-center">
-                  <div class="btn-group-vertical">
-                      <a class="btn btn-default" target= "_blank" href="https://www.google.com/search?site=&tbm=isch&q=Boca Grande (Brighton) burrito Brighton"><i class="fa fa-picture-o"></i> Pictures</a>
-                      <a class="btn btn-default" target= "_blank" href="http://maps.google.com/maps?daddr=366 Washington St., Brighton, MA"><i class="fa fa-map-marker"></i> Directions</a>
-                  </div>
-            </div>
-        </div>
-        
-        <div class="col-xs-12 col-sm-12 col-md-8"></div>
-
-     </div>
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.yelp.com/biz/beantown-taqueria-cambridge"><i class="fa fa-yelp"></i> Yelp</a>
     </div>
-  </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.beantowntaqueria.com/"><i class="fa fa-star"></i> Website</a>
+        <a class="btn btn-default" target="_blank" href="http://www.beantowntaqueria.com/menu"><i class="fa fa-cutlery"></i> Menu</a>
+    </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="https://www.google.com/search?site=&tbm=isch&q=Beantown Taqueria 2 burrito Cambridge"><i class="fa fa-picture-o"></i> Pictures</a>
+        <a class="btn btn-default" target="_blank" href="http://maps.google.com/maps?daddr=148-150 Western Ave.,Cambridge, MA 02139"><i class="fa fa-map-marker"></i> Directions</a>
+    </div>
+
+
 </div>
 
-    
-      <div class="panel panel-default">
-    <a data-toggle="collapse" data-parent="#accordion" href="#Boca Grande (Coolidge Corner)Brookline" style="text-decoration: none; color:#000000;">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#boca-grande-coolidge-cornerBrookline">
-                Boca Grande (Coolidge Corner) - Brookline
-                </a>
-            </h3>
-        </div>
-    </a>
-    <div id="boca-grande-coolidge-cornerBrookline" class="panel-collapse collapse">
-    <div class="panel-body">
-    <div class="row">
+      </script>
 
-       <div class="col-xs-12 col-sm-6 col-md-4">
+<script type=text id='5459bafc35bce71c8c7e03b7'>
+       <div class="scrollFix">
 
-           <img border="0" src="https://maps.googleapis.com/maps/api/staticmap?center=1294 Beacon St.,Brookline, MA&markers=1294 Beacon St.,Brookline, MA&zoom=14&size=200x150" alt="Boca Grande (Coolidge Corner)"/>
-           <p></p>
-           <address>1294 Beacon St.,Brookline, MA</address>
-           <p>11 am - 9:30 pm, 7 days a week</p>
+    <h4 class="bg-primary" style="padding: 3px; border-radius: 3px;">
+        &nbsp;Boca Grande (Brighton)
+    </h4>
 
 
-               
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="col-xs-6 text-center">
+    <p></p>
+    <address>366 Washington St., Brighton, MA</address>
+    <p></p>
 
-                <div class="btn-group-vertical">
-                    <a class="btn btn-default" target="_blank" href="http://www.bocagranderestaurant.com/"><i class="fa fa-star"></i> Website</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.bocagranderestaurant.com/menu.html"><i class="fa fa-cutlery"></i> Menu</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.yelp.com/biz/boca-grande-taqueria-brookline"><i class="fa fa-yelp"></i> Yelp</a>
-                </div>
 
-            </div>        
-            <div class="col-xs-6 text-center">
-                  <div class="btn-group-vertical">
-                      <a class="btn btn-default" target= "_blank" href="https://www.google.com/search?site=&tbm=isch&q=Boca Grande (Coolidge Corner) burrito Brookline"><i class="fa fa-picture-o"></i> Pictures</a>
-                      <a class="btn btn-default" target= "_blank" href="http://maps.google.com/maps?daddr=1294 Beacon St.,Brookline, MA"><i class="fa fa-map-marker"></i> Directions</a>
-                  </div>
-            </div>
-        </div>
-        
-        <div class="col-xs-12 col-sm-12 col-md-8"></div>
-
-     </div>
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.yelp.com/biz/boca-grande-restaurant-brighton"><i class="fa fa-yelp"></i> Yelp</a>
     </div>
-  </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.bocagranderestaurant.com/"><i class="fa fa-star"></i> Website</a>
+        <a class="btn btn-default" target="_blank" href="http://www.bocagranderestaurant.com/menu.html"><i class="fa fa-cutlery"></i> Menu</a>
+    </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="https://www.google.com/search?site=&tbm=isch&q=Boca Grande (Brighton) burrito Brighton"><i class="fa fa-picture-o"></i> Pictures</a>
+        <a class="btn btn-default" target="_blank" href="http://maps.google.com/maps?daddr=366 Washington St., Brighton, MA"><i class="fa fa-map-marker"></i> Directions</a>
+    </div>
+
+
 </div>
 
-    
-      <div class="panel panel-default">
-    <a data-toggle="collapse" data-parent="#accordion" href="#Boca Grande (Lechmere)Cambridge" style="text-decoration: none; color:#000000;">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#boca-grande-lechmereCambridge">
-                Boca Grande (Lechmere) - Cambridge
-                </a>
-            </h3>
-        </div>
-    </a>
-    <div id="boca-grande-lechmereCambridge" class="panel-collapse collapse">
-    <div class="panel-body">
-    <div class="row">
+      </script>
 
-       <div class="col-xs-12 col-sm-6 col-md-4">
+<script type=text id='5459bafb35bce71c8c7e03b4'>
+       <div class="scrollFix">
 
-           <img border="0" src="https://maps.googleapis.com/maps/api/staticmap?center=149 First Street, Cambridge, MA&markers=149 First Street, Cambridge, MA&zoom=14&size=200x150" alt="Boca Grande (Lechmere)"/>
-           <p></p>
-           <address>149 First Street, Cambridge, MA</address>
-           <p>11 am - 9 pm, M-Sa</p>
+    <h4 class="bg-primary" style="padding: 3px; border-radius: 3px;">
+        &nbsp;Boca Grande (Coolidge Corner)
+    </h4>
 
 
-               
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="col-xs-6 text-center">
+    <p></p>
+    <address>1294 Beacon St.,Brookline, MA</address>
+    <p></p>
 
-                <div class="btn-group-vertical">
-                    <a class="btn btn-default" target="_blank" href="http://www.bocagranderestaurant.com/"><i class="fa fa-star"></i> Website</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.bocagranderestaurant.com/menu.html"><i class="fa fa-cutlery"></i> Menu</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.yelp.com/biz/boca-grande-cambridge"><i class="fa fa-yelp"></i> Yelp</a>
-                </div>
 
-            </div>        
-            <div class="col-xs-6 text-center">
-                  <div class="btn-group-vertical">
-                      <a class="btn btn-default" target= "_blank" href="https://www.google.com/search?site=&tbm=isch&q=Boca Grande (Lechmere) burrito Cambridge"><i class="fa fa-picture-o"></i> Pictures</a>
-                      <a class="btn btn-default" target= "_blank" href="http://maps.google.com/maps?daddr=149 First Street, Cambridge, MA"><i class="fa fa-map-marker"></i> Directions</a>
-                  </div>
-            </div>
-        </div>
-        
-        <div class="col-xs-12 col-sm-12 col-md-8"></div>
-
-     </div>
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.yelp.com/biz/boca-grande-taqueria-brookline"><i class="fa fa-yelp"></i> Yelp</a>
     </div>
-  </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.bocagranderestaurant.com/"><i class="fa fa-star"></i> Website</a>
+        <a class="btn btn-default" target="_blank" href="http://www.bocagranderestaurant.com/menu.html"><i class="fa fa-cutlery"></i> Menu</a>
+    </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="https://www.google.com/search?site=&tbm=isch&q=Boca Grande (Coolidge Corner) burrito Brookline"><i class="fa fa-picture-o"></i> Pictures</a>
+        <a class="btn btn-default" target="_blank" href="http://maps.google.com/maps?daddr=1294 Beacon St.,Brookline, MA"><i class="fa fa-map-marker"></i> Directions</a>
+    </div>
+
+
 </div>
 
-    
-      <div class="panel panel-default">
-    <a data-toggle="collapse" data-parent="#accordion" href="#Boca Grande (Porter)Cambridge" style="text-decoration: none; color:#000000;">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#boca-grande-porterCambridge">
-                Boca Grande (Porter) - Cambridge
-                </a>
-            </h3>
-        </div>
-    </a>
-    <div id="boca-grande-porterCambridge" class="panel-collapse collapse">
-    <div class="panel-body">
-    <div class="row">
+      </script>
 
-       <div class="col-xs-12 col-sm-6 col-md-4">
+<script type=text id='5459bafc35bce71c8c7e03b6'>
+       <div class="scrollFix">
 
-           <img border="0" src="https://maps.googleapis.com/maps/api/staticmap?center=1728 Massachusetts Ave., Cambridge, MA&markers=1728 Massachusetts Ave., Cambridge, MA&zoom=14&size=200x150" alt="Boca Grande (Porter)"/>
-           <p></p>
-           <address>1728 Massachusetts Ave., Cambridge, MA</address>
-           <p>11 am - 9:30 pm, 7 days a week</p>
+    <h4 class="bg-primary" style="padding: 3px; border-radius: 3px;">
+        &nbsp;Boca Grande (Lechmere)
+    </h4>
 
 
-               
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="col-xs-6 text-center">
+    <p></p>
+    <address>149 First Street, Cambridge, MA</address>
+    <p></p>
 
-                <div class="btn-group-vertical">
-                    <a class="btn btn-default" target="_blank" href="http://www.bocagranderestaurant.com/"><i class="fa fa-star"></i> Website</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.bocagranderestaurant.com/menu.html"><i class="fa fa-cutlery"></i> Menu</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.yelp.com/biz/boca-grande-cambridge-2"><i class="fa fa-yelp"></i> Yelp</a>
-                </div>
 
-            </div>        
-            <div class="col-xs-6 text-center">
-                  <div class="btn-group-vertical">
-                      <a class="btn btn-default" target= "_blank" href="https://www.google.com/search?site=&tbm=isch&q=Boca Grande (Porter) burrito Cambridge"><i class="fa fa-picture-o"></i> Pictures</a>
-                      <a class="btn btn-default" target= "_blank" href="http://maps.google.com/maps?daddr=1728 Massachusetts Ave., Cambridge, MA"><i class="fa fa-map-marker"></i> Directions</a>
-                  </div>
-            </div>
-        </div>
-        
-        <div class="col-xs-12 col-sm-12 col-md-8"></div>
-
-     </div>
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.yelp.com/biz/boca-grande-cambridge"><i class="fa fa-yelp"></i> Yelp</a>
     </div>
-  </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.bocagranderestaurant.com/"><i class="fa fa-star"></i> Website</a>
+        <a class="btn btn-default" target="_blank" href="http://www.bocagranderestaurant.com/menu.html"><i class="fa fa-cutlery"></i> Menu</a>
+    </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="https://www.google.com/search?site=&tbm=isch&q=Boca Grande (Lechmere) burrito Cambridge"><i class="fa fa-picture-o"></i> Pictures</a>
+        <a class="btn btn-default" target="_blank" href="http://maps.google.com/maps?daddr=149 First Street, Cambridge, MA"><i class="fa fa-map-marker"></i> Directions</a>
+    </div>
+
+
 </div>
 
-    
-      <div class="panel panel-default">
-    <a data-toggle="collapse" data-parent="#accordion" href="#ChipotleWoburn" style="text-decoration: none; color:#000000;">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#chipotleWoburn">
-                Chipotle - Woburn
-                </a>
-            </h3>
-        </div>
-    </a>
-    <div id="chipotleWoburn" class="panel-collapse collapse">
-    <div class="panel-body">
-    <div class="row">
+      </script>
 
-       <div class="col-xs-12 col-sm-6 col-md-4">
+<script type=text id='5459bafc35bce71c8c7e03b5'>
+       <div class="scrollFix">
 
-           <img border="0" src="https://maps.googleapis.com/maps/api/staticmap?center=112 Commerce Way, Woburn, MA&markers=112 Commerce Way, Woburn, MA&zoom=14&size=200x150" alt="Chipotle"/>
-           <p></p>
-           <address>112 Commerce Way, Woburn, MA</address>
-           <p>11 am - 10 pm, 7 days a week</p>
+    <h4 class="bg-primary" style="padding: 3px; border-radius: 3px;">
+        &nbsp;Boca Grande (Porter)
+    </h4>
 
 
-               
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="col-xs-6 text-center">
+    <p></p>
+    <address>1728 Massachusetts Ave., Cambridge, MA</address>
+    <p></p>
 
-                <div class="btn-group-vertical">
-                    <a class="btn btn-default" target="_blank" href="http://www.chipotle.com/en-US/Default.aspx"><i class="fa fa-star"></i> Website</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.chipotle.com/en-US/menu/menu.aspx"><i class="fa fa-cutlery"></i> Menu</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.yelp.com/biz/chipotle-mexican-grill-woburn"><i class="fa fa-yelp"></i> Yelp</a>
-                </div>
 
-            </div>        
-            <div class="col-xs-6 text-center">
-                  <div class="btn-group-vertical">
-                      <a class="btn btn-default" target= "_blank" href="https://www.google.com/search?site=&tbm=isch&q=Chipotle burrito Woburn"><i class="fa fa-picture-o"></i> Pictures</a>
-                      <a class="btn btn-default" target= "_blank" href="http://maps.google.com/maps?daddr=112 Commerce Way, Woburn, MA"><i class="fa fa-map-marker"></i> Directions</a>
-                  </div>
-            </div>
-        </div>
-        
-        <div class="col-xs-12 col-sm-12 col-md-8"></div>
-
-     </div>
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.yelp.com/biz/boca-grande-cambridge-2"><i class="fa fa-yelp"></i> Yelp</a>
     </div>
-  </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.bocagranderestaurant.com/"><i class="fa fa-star"></i> Website</a>
+        <a class="btn btn-default" target="_blank" href="http://www.bocagranderestaurant.com/menu.html"><i class="fa fa-cutlery"></i> Menu</a>
+    </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="https://www.google.com/search?site=&tbm=isch&q=Boca Grande (Porter) burrito Cambridge"><i class="fa fa-picture-o"></i> Pictures</a>
+        <a class="btn btn-default" target="_blank" href="http://maps.google.com/maps?daddr=1728 Massachusetts Ave., Cambridge, MA"><i class="fa fa-map-marker"></i> Directions</a>
+    </div>
+
+
 </div>
 
-    
-      <div class="panel panel-default">
-    <a data-toggle="collapse" data-parent="#accordion" href="#El Paso EnchiladasBoston" style="text-decoration: none; color:#000000;">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#el-paso-enchiladasBoston">
-                El Paso Enchiladas - Boston
-                </a>
-            </h3>
-        </div>
-    </a>
-    <div id="el-paso-enchiladasBoston" class="panel-collapse collapse">
-    <div class="panel-body">
-    <div class="row">
+      </script>
 
-       <div class="col-xs-12 col-sm-6 col-md-4">
+<script type=text id='545afe6935bce71c8c7e03ba'>
+       <div class="scrollFix">
 
-           <img border="0" src="https://maps.googleapis.com/maps/api/staticmap?center=2135 Faneuil Hall Market Place,Boston, MA 02109&markers=2135 Faneuil Hall Market Place,Boston, MA 02109&zoom=14&size=200x150" alt="El Paso Enchiladas"/>
-           <p></p>
-           <address>2135 Faneuil Hall Market Place,Boston, MA 02109</address>
-           <p>8am - 9pm M-Sa, 8am - 7pm Su</p>
+    <h4 class="bg-primary" style="padding: 3px; border-radius: 3px;">
+        &nbsp;El Paso Enchiladas
+    </h4>
 
 
-               
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="col-xs-6 text-center">
+    <p></p>
+    <address>2135 Faneuil Hall Market Place,Boston, MA 02109</address>
+    <p></p>
 
-                <div class="btn-group-vertical">
-                    <a class="btn btn-default" target="_blank" href="http://www.elpasoenchiladas.com/index.html"><i class="fa fa-star"></i> Website</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.elpasoenchiladas.com/menus.html"><i class="fa fa-cutlery"></i> Menu</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.yelp.com/biz/el-paso-enchiladas-boston"><i class="fa fa-yelp"></i> Yelp</a>
-                </div>
 
-            </div>        
-            <div class="col-xs-6 text-center">
-                  <div class="btn-group-vertical">
-                      <a class="btn btn-default" target= "_blank" href="https://www.google.com/search?site=&tbm=isch&q=El Paso Enchiladas burrito Boston"><i class="fa fa-picture-o"></i> Pictures</a>
-                      <a class="btn btn-default" target= "_blank" href="http://maps.google.com/maps?daddr=2135 Faneuil Hall Market Place,Boston, MA 02109"><i class="fa fa-map-marker"></i> Directions</a>
-                  </div>
-            </div>
-        </div>
-        
-        <div class="col-xs-12 col-sm-12 col-md-8"></div>
-
-     </div>
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.yelp.com/biz/el-paso-enchiladas-boston"><i class="fa fa-yelp"></i> Yelp</a>
     </div>
-  </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.elpasoenchiladas.com/index.html"><i class="fa fa-star"></i> Website</a>
+        <a class="btn btn-default" target="_blank" href="http://www.elpasoenchiladas.com/menus.html"><i class="fa fa-cutlery"></i> Menu</a>
+    </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="https://www.google.com/search?site=&tbm=isch&q=El Paso Enchiladas burrito Boston"><i class="fa fa-picture-o"></i> Pictures</a>
+        <a class="btn btn-default" target="_blank" href="http://maps.google.com/maps?daddr=2135 Faneuil Hall Market Place,Boston, MA 02109"><i class="fa fa-map-marker"></i> Directions</a>
+    </div>
+
+
 </div>
 
-    
-      <div class="panel panel-default">
-    <a data-toggle="collapse" data-parent="#accordion" href="#El Pelon Taqueria (Brighton)Brighton" style="text-decoration: none; color:#000000;">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#el-pelon-taqueria-brightonBrighton">
-                El Pelon Taqueria (Brighton) - Brighton
-                </a>
-            </h3>
-        </div>
-    </a>
-    <div id="el-pelon-taqueria-brightonBrighton" class="panel-collapse collapse">
-    <div class="panel-body">
-    <div class="row">
+      </script>
 
-       <div class="col-xs-12 col-sm-6 col-md-4">
+<script type=text id='5459b59e35bce71c8c7e03af'>
+       <div class="scrollFix">
 
-           <img border="0" src="https://maps.googleapis.com/maps/api/staticmap?center=2197 Comm Ave., Brighton, MA&markers=2197 Comm Ave., Brighton, MA&zoom=14&size=200x150" alt="El Pelon Taqueria (Brighton)"/>
-           <p></p>
-           <address>2197 Comm Ave., Brighton, MA</address>
-           <p>11 am - 11 pm, 7 days a week</p>
+    <h4 class="bg-primary" style="padding: 3px; border-radius: 3px;">
+        &nbsp;El Pelon Taqueria (Brighton)
+    </h4>
 
 
-               
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="col-xs-6 text-center">
+    <p></p>
+    <address>2197 Comm Ave., Brighton, MA</address>
+    <p></p>
 
-                <div class="btn-group-vertical">
-                    <a class="btn btn-default" target="_blank" href="http://www.elpelon.com/"><i class="fa fa-star"></i> Website</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.elpelon.com/wp-content/uploads/2012/06/El-Pel%C3%B3n-Takeout-Menu-08312014.pdf"><i class="fa fa-cutlery"></i> Menu</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.yelp.com/biz/el-pelon-taqueria-brighton"><i class="fa fa-yelp"></i> Yelp</a>
-                </div>
 
-            </div>        
-            <div class="col-xs-6 text-center">
-                  <div class="btn-group-vertical">
-                      <a class="btn btn-default" target= "_blank" href="https://www.google.com/search?site=&tbm=isch&q=El Pelon Taqueria (Brighton) burrito Brighton"><i class="fa fa-picture-o"></i> Pictures</a>
-                      <a class="btn btn-default" target= "_blank" href="http://maps.google.com/maps?daddr=2197 Comm Ave., Brighton, MA"><i class="fa fa-map-marker"></i> Directions</a>
-                  </div>
-            </div>
-        </div>
-        
-        <div class="col-xs-12 col-sm-12 col-md-8"></div>
-
-     </div>
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.yelp.com/biz/el-pelon-taqueria-brighton"><i class="fa fa-yelp"></i> Yelp</a>
     </div>
-  </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.elpelon.com/"><i class="fa fa-star"></i> Website</a>
+        <a class="btn btn-default" target="_blank" href="http://www.elpelon.com/wp-content/uploads/2012/06/El-Pel%C3%B3n-Takeout-Menu-08312014.pdf"><i class="fa fa-cutlery"></i> Menu</a>
+    </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="https://www.google.com/search?site=&tbm=isch&q=El Pelon Taqueria (Brighton) burrito Brighton"><i class="fa fa-picture-o"></i> Pictures</a>
+        <a class="btn btn-default" target="_blank" href="http://maps.google.com/maps?daddr=2197 Comm Ave., Brighton, MA"><i class="fa fa-map-marker"></i> Directions</a>
+    </div>
+
+
 </div>
 
-    
-      <div class="panel panel-default">
-    <a data-toggle="collapse" data-parent="#accordion" href="#El Pelon Taqueria (Fenway)Boston" style="text-decoration: none; color:#000000;">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#el-pelon-taqueria-fenwayBoston">
-                El Pelon Taqueria (Fenway) - Boston
-                </a>
-            </h3>
-        </div>
-    </a>
-    <div id="el-pelon-taqueria-fenwayBoston" class="panel-collapse collapse">
-    <div class="panel-body">
-    <div class="row">
+      </script>
 
-       <div class="col-xs-12 col-sm-6 col-md-4">
+<script type=text id='5459b59e35bce71c8c7e03b0'>
+       <div class="scrollFix">
 
-           <img border="0" src="https://maps.googleapis.com/maps/api/staticmap?center=92 Peterborough St, Boston, MA&markers=92 Peterborough St, Boston, MA&zoom=14&size=200x150" alt="El Pelon Taqueria (Fenway)"/>
-           <p></p>
-           <address>92 Peterborough St, Boston, MA</address>
-           <p>11 am - 11 pm, 7 days a week</p>
+    <h4 class="bg-primary" style="padding: 3px; border-radius: 3px;">
+        &nbsp;El Pelon Taqueria (Fenway)
+    </h4>
 
 
-               
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="col-xs-6 text-center">
+    <p></p>
+    <address>92 Peterborough St, Boston, MA</address>
+    <p></p>
 
-                <div class="btn-group-vertical">
-                    <a class="btn btn-default" target="_blank" href="http://www.elpelon.com/"><i class="fa fa-star"></i> Website</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.elpelon.com/wp-content/uploads/2012/06/El-Pel%C3%B3n-Takeout-Menu-08312014.pdf"><i class="fa fa-cutlery"></i> Menu</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.yelp.com/biz/el-pel%C3%B3n-taquer%C3%ADa-boston-3"><i class="fa fa-yelp"></i> Yelp</a>
-                </div>
 
-            </div>        
-            <div class="col-xs-6 text-center">
-                  <div class="btn-group-vertical">
-                      <a class="btn btn-default" target= "_blank" href="https://www.google.com/search?site=&tbm=isch&q=El Pelon Taqueria (Fenway) burrito Boston"><i class="fa fa-picture-o"></i> Pictures</a>
-                      <a class="btn btn-default" target= "_blank" href="http://maps.google.com/maps?daddr=92 Peterborough St, Boston, MA"><i class="fa fa-map-marker"></i> Directions</a>
-                  </div>
-            </div>
-        </div>
-        
-        <div class="col-xs-12 col-sm-12 col-md-8"></div>
-
-     </div>
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.yelp.com/biz/el-pel%C3%B3n-taquer%C3%ADa-boston-3"><i class="fa fa-yelp"></i> Yelp</a>
     </div>
-  </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.elpelon.com/"><i class="fa fa-star"></i> Website</a>
+        <a class="btn btn-default" target="_blank" href="http://www.elpelon.com/wp-content/uploads/2012/06/El-Pel%C3%B3n-Takeout-Menu-08312014.pdf"><i class="fa fa-cutlery"></i> Menu</a>
+    </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="https://www.google.com/search?site=&tbm=isch&q=El Pelon Taqueria (Fenway) burrito Boston"><i class="fa fa-picture-o"></i> Pictures</a>
+        <a class="btn btn-default" target="_blank" href="http://maps.google.com/maps?daddr=92 Peterborough St, Boston, MA"><i class="fa fa-map-marker"></i> Directions</a>
+    </div>
+
+
 </div>
 
-    
-      <div class="panel panel-default">
-    <a data-toggle="collapse" data-parent="#accordion" href="#El TriunfoBoston" style="text-decoration: none; color:#000000;">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#el-triunfoBoston">
-                El Triunfo - Boston
-                </a>
-            </h3>
-        </div>
-    </a>
-    <div id="el-triunfoBoston" class="panel-collapse collapse">
-    <div class="panel-body">
-    <div class="row">
+      </script>
 
-       <div class="col-xs-12 col-sm-6 col-md-4">
+<script type=text id='545afe6935bce71c8c7e03b9'>
+       <div class="scrollFix">
 
-           <img border="0" src="https://maps.googleapis.com/maps/api/staticmap?center=147 E Berkeley St., Boston, MA 02118&markers=147 E Berkeley St., Boston, MA 02118&zoom=14&size=200x150" alt="El Triunfo"/>
-           <p></p>
-           <address>147 E Berkeley St., Boston, MA 02118</address>
-           <p>11am - 11pm Daily</p>
+    <h4 class="bg-primary" style="padding: 3px; border-radius: 3px;">
+        &nbsp;El Triunfo
+    </h4>
 
 
-               
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="col-xs-6 text-center">
+    <p></p>
+    <address>147 E Berkeley St., Boston, MA 02118</address>
+    <p></p>
 
-                <div class="btn-group-vertical">
-                    <a class="btn btn-default" target="_blank" href="http://www.eltriunfo-boston.com/"><i class="fa fa-star"></i> Website</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.beyondmenu.com/20083/boston/el-triunfo-boston-02118.aspx"><i class="fa fa-cutlery"></i> Menu</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.yelp.com/biz/el-triunfo-boston"><i class="fa fa-yelp"></i> Yelp</a>
-                </div>
 
-            </div>        
-            <div class="col-xs-6 text-center">
-                  <div class="btn-group-vertical">
-                      <a class="btn btn-default" target= "_blank" href="https://www.google.com/search?site=&tbm=isch&q=El Triunfo burrito Boston"><i class="fa fa-picture-o"></i> Pictures</a>
-                      <a class="btn btn-default" target= "_blank" href="http://maps.google.com/maps?daddr=147 E Berkeley St., Boston, MA 02118"><i class="fa fa-map-marker"></i> Directions</a>
-                  </div>
-            </div>
-        </div>
-        
-        <div class="col-xs-12 col-sm-12 col-md-8"></div>
-
-     </div>
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.yelp.com/biz/el-triunfo-boston"><i class="fa fa-yelp"></i> Yelp</a>
     </div>
-  </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.eltriunfo-boston.com/"><i class="fa fa-star"></i> Website</a>
+        <a class="btn btn-default" target="_blank" href="http://www.beyondmenu.com/20083/boston/el-triunfo-boston-02118.aspx"><i class="fa fa-cutlery"></i> Menu</a>
+    </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="https://www.google.com/search?site=&tbm=isch&q=El Triunfo burrito Boston"><i class="fa fa-picture-o"></i> Pictures</a>
+        <a class="btn btn-default" target="_blank" href="http://maps.google.com/maps?daddr=147 E Berkeley St., Boston, MA 02118"><i class="fa fa-map-marker"></i> Directions</a>
+    </div>
+
+
 </div>
 
-    
-      <div class="panel panel-default">
-    <a data-toggle="collapse" data-parent="#accordion" href="#Felipe&#39;s TaqueriaBoston" style="text-decoration: none; color:#000000;">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#felipes-taqueriaBoston">
-                Felipe&#39;s Taqueria - Boston
-                </a>
-            </h3>
-        </div>
-    </a>
-    <div id="felipes-taqueriaBoston" class="panel-collapse collapse">
-    <div class="panel-body">
-    <div class="row">
+      </script>
 
-       <div class="col-xs-12 col-sm-6 col-md-4">
+<script type=text id='546038de35bce72314901337'>
+       <div class="scrollFix">
 
-           <img border="0" src="https://maps.googleapis.com/maps/api/staticmap?center=33 Brattle St., Cambridge, MA 02138&markers=33 Brattle St., Cambridge, MA 02138&zoom=14&size=200x150" alt="Felipe&#39;s Taqueria"/>
-           <p></p>
-           <address>33 Brattle St., Cambridge, MA 02138</address>
-           <p>11am - 12am Su-W, 11am - 2am Th-Sa</p>
+    <h4 class="bg-primary" style="padding: 3px; border-radius: 3px;">
+        &nbsp;Felipe&#39;s Taqueria
+    </h4>
 
 
-               
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="col-xs-6 text-center">
+    <p></p>
+    <address>33 Brattle St., Cambridge, MA 02138</address>
+    <p></p>
 
-                <div class="btn-group-vertical">
-                    <a class="btn btn-default" target="_blank" href="http://www.felipestaqueria.com/"><i class="fa fa-star"></i> Website</a>
-                    <a class="btn btn-default" target = "_blank" href="http://harvardsq.felipestaqueria.com/content/menu"><i class="fa fa-cutlery"></i> Menu</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.yelp.com/biz/felipes-taqueria-cambridge"><i class="fa fa-yelp"></i> Yelp</a>
-                </div>
 
-            </div>        
-            <div class="col-xs-6 text-center">
-                  <div class="btn-group-vertical">
-                      <a class="btn btn-default" target= "_blank" href="https://www.google.com/search?site=&tbm=isch&q=Felipe&#39;s Taqueria burrito Boston"><i class="fa fa-picture-o"></i> Pictures</a>
-                      <a class="btn btn-default" target= "_blank" href="http://maps.google.com/maps?daddr=33 Brattle St., Cambridge, MA 02138"><i class="fa fa-map-marker"></i> Directions</a>
-                  </div>
-            </div>
-        </div>
-        
-        <div class="col-xs-12 col-sm-12 col-md-8"></div>
-
-     </div>
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.yelp.com/biz/felipes-taqueria-cambridge"><i class="fa fa-yelp"></i> Yelp</a>
     </div>
-  </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.felipestaqueria.com/"><i class="fa fa-star"></i> Website</a>
+        <a class="btn btn-default" target="_blank" href="http://harvardsq.felipestaqueria.com/content/menu"><i class="fa fa-cutlery"></i> Menu</a>
+    </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="https://www.google.com/search?site=&tbm=isch&q=Felipe&#39;s Taqueria burrito Boston"><i class="fa fa-picture-o"></i> Pictures</a>
+        <a class="btn btn-default" target="_blank" href="http://maps.google.com/maps?daddr=33 Brattle St., Cambridge, MA 02138"><i class="fa fa-map-marker"></i> Directions</a>
+    </div>
+
+
 </div>
 
-    
-      <div class="panel panel-default">
-    <a data-toggle="collapse" data-parent="#accordion" href="#La Victoria (Arlington)Arlington" style="text-decoration: none; color:#000000;">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#la-victoria-arlingtonArlington">
-                La Victoria (Arlington) - Arlington
-                </a>
-            </h3>
-        </div>
-    </a>
-    <div id="la-victoria-arlingtonArlington" class="panel-collapse collapse">
-    <div class="panel-body">
-    <div class="row">
+      </script>
 
-       <div class="col-xs-12 col-sm-6 col-md-4">
+<script type=text id='546038df35bce72314901340'>
+       <div class="scrollFix">
 
-           <img border="0" src="https://maps.googleapis.com/maps/api/staticmap?center=12 Medford Street, Arlington, MA&markers=12 Medford Street, Arlington, MA&zoom=14&size=200x150" alt="La Victoria (Arlington)"/>
-           <p></p>
-           <address>12 Medford Street, Arlington, MA</address>
-           <p></p>
+    <h4 class="bg-primary" style="padding: 3px; border-radius: 3px;">
+        &nbsp;La Victoria (Arlington)
+    </h4>
 
 
-               
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="col-xs-6 text-center">
+    <p></p>
+    <address>12 Medford Street, Arlington, MA</address>
+    <p></p>
 
-                <div class="btn-group-vertical">
-                    <a class="btn btn-default" target="_blank" href="http://www.victoriataqueria.com/"><i class="fa fa-star"></i> Website</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.victoriataqueria.com/menu.html"><i class="fa fa-cutlery"></i> Menu</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.victoriataqueria.com/"><i class="fa fa-yelp"></i> Yelp</a>
-                </div>
 
-            </div>        
-            <div class="col-xs-6 text-center">
-                  <div class="btn-group-vertical">
-                      <a class="btn btn-default" target= "_blank" href="https://www.google.com/search?site=&tbm=isch&q=La Victoria (Arlington) burrito Arlington"><i class="fa fa-picture-o"></i> Pictures</a>
-                      <a class="btn btn-default" target= "_blank" href="http://maps.google.com/maps?daddr=12 Medford Street, Arlington, MA"><i class="fa fa-map-marker"></i> Directions</a>
-                  </div>
-            </div>
-        </div>
-        
-        <div class="col-xs-12 col-sm-12 col-md-8"></div>
-
-     </div>
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.victoriataqueria.com/"><i class="fa fa-yelp"></i> Yelp</a>
     </div>
-  </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.victoriataqueria.com/"><i class="fa fa-star"></i> Website</a>
+        <a class="btn btn-default" target="_blank" href="http://www.victoriataqueria.com/menu.html"><i class="fa fa-cutlery"></i> Menu</a>
+    </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="https://www.google.com/search?site=&tbm=isch&q=La Victoria (Arlington) burrito Arlington"><i class="fa fa-picture-o"></i> Pictures</a>
+        <a class="btn btn-default" target="_blank" href="http://maps.google.com/maps?daddr=12 Medford Street, Arlington, MA"><i class="fa fa-map-marker"></i> Directions</a>
+    </div>
+
+
 </div>
 
-    
-      <div class="panel panel-default">
-    <a data-toggle="collapse" data-parent="#accordion" href="#Maria&#39;s TaqueriaBoston" style="text-decoration: none; color:#000000;">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#marias-taqueriaBoston">
-                Maria&#39;s Taqueria - Boston
-                </a>
-            </h3>
-        </div>
-    </a>
-    <div id="marias-taqueriaBoston" class="panel-collapse collapse">
-    <div class="panel-body">
-    <div class="row">
+      </script>
 
-       <div class="col-xs-12 col-sm-6 col-md-4">
+<script type=text id='545afe6935bce71c8c7e03bd'>
+       <div class="scrollFix">
 
-           <img border="0" src="https://maps.googleapis.com/maps/api/staticmap?center=226 Tremont St, Boston 02116&markers=226 Tremont St, Boston 02116&zoom=14&size=200x150" alt="Maria&#39;s Taqueria"/>
-           <p></p>
-           <address>226 Tremont St, Boston 02116</address>
-           <p>11am - 1am Daily</p>
+    <h4 class="bg-primary" style="padding: 3px; border-radius: 3px;">
+        &nbsp;Maria&#39;s Taqueria
+    </h4>
 
 
-               
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="col-xs-6 text-center">
+    <p></p>
+    <address>226 Tremont St, Boston 02116</address>
+    <p></p>
 
-                <div class="btn-group-vertical">
-                    <a class="btn btn-default" target="_blank" href="http://boston.menupages.com/restaurants/marias-taqueria/menu"><i class="fa fa-star"></i> Website</a>
-                    <a class="btn btn-default" target = "_blank" href="http://boston.menupages.com/restaurants/marias-taqueria/menu"><i class="fa fa-cutlery"></i> Menu</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.yelp.com/biz/marias-taqueria-boston"><i class="fa fa-yelp"></i> Yelp</a>
-                </div>
 
-            </div>        
-            <div class="col-xs-6 text-center">
-                  <div class="btn-group-vertical">
-                      <a class="btn btn-default" target= "_blank" href="https://www.google.com/search?site=&tbm=isch&q=Maria&#39;s Taqueria burrito Boston"><i class="fa fa-picture-o"></i> Pictures</a>
-                      <a class="btn btn-default" target= "_blank" href="http://maps.google.com/maps?daddr=226 Tremont St, Boston 02116"><i class="fa fa-map-marker"></i> Directions</a>
-                  </div>
-            </div>
-        </div>
-        
-        <div class="col-xs-12 col-sm-12 col-md-8"></div>
-
-     </div>
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.yelp.com/biz/marias-taqueria-boston"><i class="fa fa-yelp"></i> Yelp</a>
     </div>
-  </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://boston.menupages.com/restaurants/marias-taqueria/menu"><i class="fa fa-star"></i> Website</a>
+        <a class="btn btn-default" target="_blank" href="http://boston.menupages.com/restaurants/marias-taqueria/menu"><i class="fa fa-cutlery"></i> Menu</a>
+    </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="https://www.google.com/search?site=&tbm=isch&q=Maria&#39;s Taqueria burrito Boston"><i class="fa fa-picture-o"></i> Pictures</a>
+        <a class="btn btn-default" target="_blank" href="http://maps.google.com/maps?daddr=226 Tremont St, Boston 02116"><i class="fa fa-map-marker"></i> Directions</a>
+    </div>
+
+
 </div>
 
-    
-      <div class="panel panel-default">
-    <a data-toggle="collapse" data-parent="#accordion" href="#MexiCali Burrito Co.Cambridge" style="text-decoration: none; color:#000000;">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#mexicali-burrito-coCambridge">
-                MexiCali Burrito Co. - Cambridge
-                </a>
-            </h3>
-        </div>
-    </a>
-    <div id="mexicali-burrito-coCambridge" class="panel-collapse collapse">
-    <div class="panel-body">
-    <div class="row">
+      </script>
 
-       <div class="col-xs-12 col-sm-6 col-md-4">
+<script type=text id='5459b59e35bce71c8c7e03ad'>
+       <div class="scrollFix">
 
-           <img border="0" src="https://maps.googleapis.com/maps/api/staticmap?center=500 Technology Square, Cambridge, MA&markers=500 Technology Square, Cambridge, MA&zoom=14&size=200x150" alt="MexiCali Burrito Co."/>
-           <p></p>
-           <address>500 Technology Square, Cambridge, MA</address>
-           <p>11 am - 8 pm, 7 days a week</p>
+    <h4 class="bg-primary" style="padding: 3px; border-radius: 3px;">
+        &nbsp;MexiCali Burrito Co.
+    </h4>
 
 
-               
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="col-xs-6 text-center">
+    <p></p>
+    <address>500 Technology Square, Cambridge, MA</address>
+    <p></p>
 
-                <div class="btn-group-vertical">
-                    <a class="btn btn-default" target="_blank" href="http://www.mexicaliburrito.com/"><i class="fa fa-star"></i> Website</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.mexicaliburrito.com/menu.php"><i class="fa fa-cutlery"></i> Menu</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.yelp.com/biz/mexicali-burrito-co-cambridge-2"><i class="fa fa-yelp"></i> Yelp</a>
-                </div>
 
-            </div>        
-            <div class="col-xs-6 text-center">
-                  <div class="btn-group-vertical">
-                      <a class="btn btn-default" target= "_blank" href="https://www.google.com/search?site=&tbm=isch&q=MexiCali Burrito Co. burrito Cambridge"><i class="fa fa-picture-o"></i> Pictures</a>
-                      <a class="btn btn-default" target= "_blank" href="http://maps.google.com/maps?daddr=500 Technology Square, Cambridge, MA"><i class="fa fa-map-marker"></i> Directions</a>
-                  </div>
-            </div>
-        </div>
-        
-        <div class="col-xs-12 col-sm-12 col-md-8"></div>
-
-     </div>
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.yelp.com/biz/mexicali-burrito-co-cambridge-2"><i class="fa fa-yelp"></i> Yelp</a>
     </div>
-  </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.mexicaliburrito.com/"><i class="fa fa-star"></i> Website</a>
+        <a class="btn btn-default" target="_blank" href="http://www.mexicaliburrito.com/menu.php"><i class="fa fa-cutlery"></i> Menu</a>
+    </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="https://www.google.com/search?site=&tbm=isch&q=MexiCali Burrito Co. burrito Cambridge"><i class="fa fa-picture-o"></i> Pictures</a>
+        <a class="btn btn-default" target="_blank" href="http://maps.google.com/maps?daddr=500 Technology Square, Cambridge, MA"><i class="fa fa-map-marker"></i> Directions</a>
+    </div>
+
+
 </div>
 
-    
-      <div class="panel panel-default">
-    <a data-toggle="collapse" data-parent="#accordion" href="#MexiCali Burrito Co. CabanaCambridge" style="text-decoration: none; color:#000000;">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#mexicali-burrito-co-cabanaCambridge">
-                MexiCali Burrito Co. Cabana - Cambridge
-                </a>
-            </h3>
-        </div>
-    </a>
-    <div id="mexicali-burrito-co-cabanaCambridge" class="panel-collapse collapse">
-    <div class="panel-body">
-    <div class="row">
+      </script>
 
-       <div class="col-xs-12 col-sm-6 col-md-4">
+<script type=text id='5459b59e35bce71c8c7e03ae'>
+       <div class="scrollFix">
 
-           <img border="0" src="https://maps.googleapis.com/maps/api/staticmap?center=350 East Kendall Street, Cambridge, MA&markers=350 East Kendall Street, Cambridge, MA&zoom=14&size=200x150" alt="MexiCali Burrito Co. Cabana"/>
-           <p></p>
-           <address>350 East Kendall Street, Cambridge, MA</address>
-           <p>11 am - 8 pm, 7 days a week</p>
+    <h4 class="bg-primary" style="padding: 3px; border-radius: 3px;">
+        &nbsp;MexiCali Burrito Co. Cabana
+    </h4>
 
 
-               
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="col-xs-6 text-center">
+    <p></p>
+    <address>350 East Kendall Street, Cambridge, MA</address>
+    <p></p>
 
-                <div class="btn-group-vertical">
-                    <a class="btn btn-default" target="_blank" href="http://www.mexicaliburrito.com/cabana.php"><i class="fa fa-star"></i> Website</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.mexicaliburrito.com/cabana.php"><i class="fa fa-cutlery"></i> Menu</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.yelp.com/biz/mexicali-burrito-cabana-cambridge"><i class="fa fa-yelp"></i> Yelp</a>
-                </div>
 
-            </div>        
-            <div class="col-xs-6 text-center">
-                  <div class="btn-group-vertical">
-                      <a class="btn btn-default" target= "_blank" href="https://www.google.com/search?site=&tbm=isch&q=MexiCali Burrito Co. Cabana burrito Cambridge"><i class="fa fa-picture-o"></i> Pictures</a>
-                      <a class="btn btn-default" target= "_blank" href="http://maps.google.com/maps?daddr=350 East Kendall Street, Cambridge, MA"><i class="fa fa-map-marker"></i> Directions</a>
-                  </div>
-            </div>
-        </div>
-        
-        <div class="col-xs-12 col-sm-12 col-md-8"></div>
-
-     </div>
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.yelp.com/biz/mexicali-burrito-cabana-cambridge"><i class="fa fa-yelp"></i> Yelp</a>
     </div>
-  </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.mexicaliburrito.com/cabana.php"><i class="fa fa-star"></i> Website</a>
+        <a class="btn btn-default" target="_blank" href="http://www.mexicaliburrito.com/cabana.php"><i class="fa fa-cutlery"></i> Menu</a>
+    </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="https://www.google.com/search?site=&tbm=isch&q=MexiCali Burrito Co. Cabana burrito Cambridge"><i class="fa fa-picture-o"></i> Pictures</a>
+        <a class="btn btn-default" target="_blank" href="http://maps.google.com/maps?daddr=350 East Kendall Street, Cambridge, MA"><i class="fa fa-map-marker"></i> Directions</a>
+    </div>
+
+
 </div>
 
-    
-      <div class="panel panel-default">
-    <a data-toggle="collapse" data-parent="#accordion" href="#Montecristo Mexican GrillBoston" style="text-decoration: none; color:#000000;">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#montecristo-mexican-grillBoston">
-                Montecristo Mexican Grill - Boston
-                </a>
-            </h3>
-        </div>
-    </a>
-    <div id="montecristo-mexican-grillBoston" class="panel-collapse collapse">
-    <div class="panel-body">
-    <div class="row">
+      </script>
 
-       <div class="col-xs-12 col-sm-6 col-md-4">
+<script type=text id='5459bafb35bce71c8c7e03b3'>
+       <div class="scrollFix">
 
-           <img border="0" src="https://maps.googleapis.com/maps/api/staticmap?center=748 Huntington Ave.,Boston, MA&markers=748 Huntington Ave.,Boston, MA&zoom=14&size=200x150" alt="Montecristo Mexican Grill"/>
-           <p></p>
-           <address>748 Huntington Ave.,Boston, MA</address>
-           <p>9 am - 12 am, 7 days a week</p>
+    <h4 class="bg-primary" style="padding: 3px; border-radius: 3px;">
+        &nbsp;Montecristo Mexican Grill
+    </h4>
 
 
-               
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="col-xs-6 text-center">
+    <p></p>
+    <address>748 Huntington Ave.,Boston, MA</address>
+    <p></p>
 
-                <div class="btn-group-vertical">
-                    <a class="btn btn-default" target="_blank" href="http://www.montecristomexicangrill.com/"><i class="fa fa-star"></i> Website</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.montecristomexicangrill.com/menu/"><i class="fa fa-cutlery"></i> Menu</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.yelp.com/biz/montecristo-mexican-grill-boston"><i class="fa fa-yelp"></i> Yelp</a>
-                </div>
 
-            </div>        
-            <div class="col-xs-6 text-center">
-                  <div class="btn-group-vertical">
-                      <a class="btn btn-default" target= "_blank" href="https://www.google.com/search?site=&tbm=isch&q=Montecristo Mexican Grill burrito Boston"><i class="fa fa-picture-o"></i> Pictures</a>
-                      <a class="btn btn-default" target= "_blank" href="http://maps.google.com/maps?daddr=748 Huntington Ave.,Boston, MA"><i class="fa fa-map-marker"></i> Directions</a>
-                  </div>
-            </div>
-        </div>
-        
-        <div class="col-xs-12 col-sm-12 col-md-8"></div>
-
-     </div>
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.yelp.com/biz/montecristo-mexican-grill-boston"><i class="fa fa-yelp"></i> Yelp</a>
     </div>
-  </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.montecristomexicangrill.com/"><i class="fa fa-star"></i> Website</a>
+        <a class="btn btn-default" target="_blank" href="http://www.montecristomexicangrill.com/menu/"><i class="fa fa-cutlery"></i> Menu</a>
+    </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="https://www.google.com/search?site=&tbm=isch&q=Montecristo Mexican Grill burrito Boston"><i class="fa fa-picture-o"></i> Pictures</a>
+        <a class="btn btn-default" target="_blank" href="http://maps.google.com/maps?daddr=748 Huntington Ave.,Boston, MA"><i class="fa fa-map-marker"></i> Directions</a>
+    </div>
+
+
 </div>
 
-    
-      <div class="panel panel-default">
-    <a data-toggle="collapse" data-parent="#accordion" href="#Olecito (Brookline)Brookline" style="text-decoration: none; color:#000000;">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#olecito-brooklineBrookline">
-                Olecito (Brookline) - Brookline
-                </a>
-            </h3>
-        </div>
-    </a>
-    <div id="olecito-brooklineBrookline" class="panel-collapse collapse">
-    <div class="panel-body">
-    <div class="row">
+      </script>
 
-       <div class="col-xs-12 col-sm-6 col-md-4">
+<script type=text id='546038de35bce72314901339'>
+       <div class="scrollFix">
 
-           <img border="0" src="https://maps.googleapis.com/maps/api/staticmap?center=6 Cypress Street, Brookline, MA 02445&markers=6 Cypress Street, Brookline, MA 02445&zoom=14&size=200x150" alt="Olecito (Brookline)"/>
-           <p></p>
-           <address>6 Cypress Street, Brookline, MA 02445</address>
-           <p>11am - 9pm M-Sa, Closed Su</p>
+    <h4 class="bg-primary" style="padding: 3px; border-radius: 3px;">
+        &nbsp;Olecito (Brookline)
+    </h4>
 
 
-               
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="col-xs-6 text-center">
+    <p></p>
+    <address>6 Cypress Street, Brookline, MA 02445</address>
+    <p></p>
 
-                <div class="btn-group-vertical">
-                    <a class="btn btn-default" target="_blank" href="http://www.olerestaurantgroup.com/olecito"><i class="fa fa-star"></i> Website</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.olerestaurantgroup.com/wp-content/uploads/2011/10/olecito-menu.pdf"><i class="fa fa-cutlery"></i> Menu</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.yelp.com/biz/olecito-cambridge"><i class="fa fa-yelp"></i> Yelp</a>
-                </div>
 
-            </div>        
-            <div class="col-xs-6 text-center">
-                  <div class="btn-group-vertical">
-                      <a class="btn btn-default" target= "_blank" href="https://www.google.com/search?site=&tbm=isch&q=Olecito (Brookline) burrito Brookline"><i class="fa fa-picture-o"></i> Pictures</a>
-                      <a class="btn btn-default" target= "_blank" href="http://maps.google.com/maps?daddr=6 Cypress Street, Brookline, MA 02445"><i class="fa fa-map-marker"></i> Directions</a>
-                  </div>
-            </div>
-        </div>
-        
-        <div class="col-xs-12 col-sm-12 col-md-8"></div>
-
-     </div>
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.yelp.com/biz/olecito-cambridge"><i class="fa fa-yelp"></i> Yelp</a>
     </div>
-  </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.olerestaurantgroup.com/olecito"><i class="fa fa-star"></i> Website</a>
+        <a class="btn btn-default" target="_blank" href="http://www.olerestaurantgroup.com/wp-content/uploads/2011/10/olecito-menu.pdf"><i class="fa fa-cutlery"></i> Menu</a>
+    </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="https://www.google.com/search?site=&tbm=isch&q=Olecito (Brookline) burrito Brookline"><i class="fa fa-picture-o"></i> Pictures</a>
+        <a class="btn btn-default" target="_blank" href="http://maps.google.com/maps?daddr=6 Cypress Street, Brookline, MA 02445"><i class="fa fa-map-marker"></i> Directions</a>
+    </div>
+
+
 </div>
 
-    
-      <div class="panel panel-default">
-    <a data-toggle="collapse" data-parent="#accordion" href="#Olecito (Cambridge)Cambridge" style="text-decoration: none; color:#000000;">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#olecito-cambridgeCambridge">
-                Olecito (Cambridge) - Cambridge
-                </a>
-            </h3>
-        </div>
-    </a>
-    <div id="olecito-cambridgeCambridge" class="panel-collapse collapse">
-    <div class="panel-body">
-    <div class="row">
+      </script>
 
-       <div class="col-xs-12 col-sm-6 col-md-4">
+<script type=text id='546038de35bce72314901338'>
+       <div class="scrollFix">
 
-           <img border="0" src="https://maps.googleapis.com/maps/api/staticmap?center=12 Springfield Street, Cambridge, MA&markers=12 Springfield Street, Cambridge, MA&zoom=14&size=200x150" alt="Olecito (Cambridge)"/>
-           <p></p>
-           <address>12 Springfield Street, Cambridge, MA</address>
-           <p>11am - 9pm Su-Th, 11am - 10pm F-Sa</p>
+    <h4 class="bg-primary" style="padding: 3px; border-radius: 3px;">
+        &nbsp;Olecito (Cambridge)
+    </h4>
 
 
-               
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="col-xs-6 text-center">
+    <p></p>
+    <address>12 Springfield Street, Cambridge, MA</address>
+    <p></p>
 
-                <div class="btn-group-vertical">
-                    <a class="btn btn-default" target="_blank" href="http://www.olerestaurantgroup.com/olecito"><i class="fa fa-star"></i> Website</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.olerestaurantgroup.com/wp-content/uploads/2011/10/olecito-menu.pdf"><i class="fa fa-cutlery"></i> Menu</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.yelp.com/biz/olecito-cambridge"><i class="fa fa-yelp"></i> Yelp</a>
-                </div>
 
-            </div>        
-            <div class="col-xs-6 text-center">
-                  <div class="btn-group-vertical">
-                      <a class="btn btn-default" target= "_blank" href="https://www.google.com/search?site=&tbm=isch&q=Olecito (Cambridge) burrito Cambridge"><i class="fa fa-picture-o"></i> Pictures</a>
-                      <a class="btn btn-default" target= "_blank" href="http://maps.google.com/maps?daddr=12 Springfield Street, Cambridge, MA"><i class="fa fa-map-marker"></i> Directions</a>
-                  </div>
-            </div>
-        </div>
-        
-        <div class="col-xs-12 col-sm-12 col-md-8"></div>
-
-     </div>
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.yelp.com/biz/olecito-cambridge"><i class="fa fa-yelp"></i> Yelp</a>
     </div>
-  </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.olerestaurantgroup.com/olecito"><i class="fa fa-star"></i> Website</a>
+        <a class="btn btn-default" target="_blank" href="http://www.olerestaurantgroup.com/wp-content/uploads/2011/10/olecito-menu.pdf"><i class="fa fa-cutlery"></i> Menu</a>
+    </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="https://www.google.com/search?site=&tbm=isch&q=Olecito (Cambridge) burrito Cambridge"><i class="fa fa-picture-o"></i> Pictures</a>
+        <a class="btn btn-default" target="_blank" href="http://maps.google.com/maps?daddr=12 Springfield Street, Cambridge, MA"><i class="fa fa-map-marker"></i> Directions</a>
+    </div>
+
+
 </div>
 
-    
-      <div class="panel panel-default">
-    <a data-toggle="collapse" data-parent="#accordion" href="#Pedro&#39;s TacosBoston" style="text-decoration: none; color:#000000;">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#pedros-tacosBoston">
-                Pedro&#39;s Tacos - Boston
-                </a>
-            </h3>
-        </div>
-    </a>
-    <div id="pedros-tacosBoston" class="panel-collapse collapse">
-    <div class="panel-body">
-    <div class="row">
+      </script>
 
-       <div class="col-xs-12 col-sm-6 col-md-4">
+<script type=text id='5459b59e35bce71c8c7e03b1'>
+       <div class="scrollFix">
 
-           <img border="0" src="https://maps.googleapis.com/maps/api/staticmap?center=55 Bromfield St, Boston, MA&markers=55 Bromfield St, Boston, MA&zoom=14&size=200x150" alt="Pedro&#39;s Tacos"/>
-           <p></p>
-           <address>55 Bromfield St, Boston, MA</address>
-           <p>11 am - 11 pm, 7 days a week</p>
+    <h4 class="bg-primary" style="padding: 3px; border-radius: 3px;">
+        &nbsp;Pedro&#39;s Tacos
+    </h4>
 
 
-               
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="col-xs-6 text-center">
+    <p></p>
+    <address>55 Bromfield St, Boston, MA</address>
+    <p></p>
 
-                <div class="btn-group-vertical">
-                    <a class="btn btn-default" target="_blank" href="http://www.pedrostacos.com/"><i class="fa fa-star"></i> Website</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.pedrostacos.com/menu.html"><i class="fa fa-cutlery"></i> Menu</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.yelp.com/biz/pedros-tacos-boston"><i class="fa fa-yelp"></i> Yelp</a>
-                </div>
 
-            </div>        
-            <div class="col-xs-6 text-center">
-                  <div class="btn-group-vertical">
-                      <a class="btn btn-default" target= "_blank" href="https://www.google.com/search?site=&tbm=isch&q=Pedro&#39;s Tacos burrito Boston"><i class="fa fa-picture-o"></i> Pictures</a>
-                      <a class="btn btn-default" target= "_blank" href="http://maps.google.com/maps?daddr=55 Bromfield St, Boston, MA"><i class="fa fa-map-marker"></i> Directions</a>
-                  </div>
-            </div>
-        </div>
-        
-        <div class="col-xs-12 col-sm-12 col-md-8"></div>
-
-     </div>
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.yelp.com/biz/pedros-tacos-boston"><i class="fa fa-yelp"></i> Yelp</a>
     </div>
-  </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.pedrostacos.com/"><i class="fa fa-star"></i> Website</a>
+        <a class="btn btn-default" target="_blank" href="http://www.pedrostacos.com/menu.html"><i class="fa fa-cutlery"></i> Menu</a>
+    </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="https://www.google.com/search?site=&tbm=isch&q=Pedro&#39;s Tacos burrito Boston"><i class="fa fa-picture-o"></i> Pictures</a>
+        <a class="btn btn-default" target="_blank" href="http://maps.google.com/maps?daddr=55 Bromfield St, Boston, MA"><i class="fa fa-map-marker"></i> Directions</a>
+    </div>
+
+
 </div>
 
-    
-      <div class="panel panel-default">
-    <a data-toggle="collapse" data-parent="#accordion" href="#Picante Mexican GrillCambridge" style="text-decoration: none; color:#000000;">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#picante-mexican-grillCambridge">
-                Picante Mexican Grill - Cambridge
-                </a>
-            </h3>
-        </div>
-    </a>
-    <div id="picante-mexican-grillCambridge" class="panel-collapse collapse">
-    <div class="panel-body">
-    <div class="row">
+      </script>
 
-       <div class="col-xs-12 col-sm-6 col-md-4">
+<script type=text id='546038de35bce7231490133a'>
+       <div class="scrollFix">
 
-           <img border="0" src="https://maps.googleapis.com/maps/api/staticmap?center=735 Massachusetts Ave.,Cambridge, MA&markers=735 Massachusetts Ave.,Cambridge, MA&zoom=14&size=200x150" alt="Picante Mexican Grill"/>
-           <p></p>
-           <address>735 Massachusetts Ave.,Cambridge, MA</address>
-           <p>11am - 10:30pm M-W, 11am - 11pm Th-F, 10am - 11pm Sa-Su</p>
+    <h4 class="bg-primary" style="padding: 3px; border-radius: 3px;">
+        &nbsp;Picante Mexican Grill
+    </h4>
 
 
-               
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="col-xs-6 text-center">
+    <p></p>
+    <address>735 Massachusetts Ave.,Cambridge, MA</address>
+    <p></p>
 
-                <div class="btn-group-vertical">
-                    <a class="btn btn-default" target="_blank" href="http://www.picantemex.com/"><i class="fa fa-star"></i> Website</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.picantemex.com/"><i class="fa fa-cutlery"></i> Menu</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.yelp.com/biz/picante-mexican-grill-cambridge"><i class="fa fa-yelp"></i> Yelp</a>
-                </div>
 
-            </div>        
-            <div class="col-xs-6 text-center">
-                  <div class="btn-group-vertical">
-                      <a class="btn btn-default" target= "_blank" href="https://www.google.com/search?site=&tbm=isch&q=Picante Mexican Grill burrito Cambridge"><i class="fa fa-picture-o"></i> Pictures</a>
-                      <a class="btn btn-default" target= "_blank" href="http://maps.google.com/maps?daddr=735 Massachusetts Ave.,Cambridge, MA"><i class="fa fa-map-marker"></i> Directions</a>
-                  </div>
-            </div>
-        </div>
-        
-        <div class="col-xs-12 col-sm-12 col-md-8"></div>
-
-     </div>
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.yelp.com/biz/picante-mexican-grill-cambridge"><i class="fa fa-yelp"></i> Yelp</a>
     </div>
-  </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.picantemex.com/"><i class="fa fa-star"></i> Website</a>
+        <a class="btn btn-default" target="_blank" href="http://www.picantemex.com/"><i class="fa fa-cutlery"></i> Menu</a>
+    </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="https://www.google.com/search?site=&tbm=isch&q=Picante Mexican Grill burrito Cambridge"><i class="fa fa-picture-o"></i> Pictures</a>
+        <a class="btn btn-default" target="_blank" href="http://maps.google.com/maps?daddr=735 Massachusetts Ave.,Cambridge, MA"><i class="fa fa-map-marker"></i> Directions</a>
+    </div>
+
+
 </div>
 
-    
-      <div class="panel panel-default">
-    <a data-toggle="collapse" data-parent="#accordion" href="#Romano&#39;s Pizza and TaqueriaRoslindale" style="text-decoration: none; color:#000000;">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#romanos-pizza-and-taqueriaRoslindale">
-                Romano&#39;s Pizza and Taqueria - Roslindale
-                </a>
-            </h3>
-        </div>
-    </a>
-    <div id="romanos-pizza-and-taqueriaRoslindale" class="panel-collapse collapse">
-    <div class="panel-body">
-    <div class="row">
+      </script>
 
-       <div class="col-xs-12 col-sm-6 col-md-4">
+<script type=text id='546038de35bce7231490133c'>
+       <div class="scrollFix">
 
-           <img border="0" src="https://maps.googleapis.com/maps/api/staticmap?center=4249 Washington Street,Roslindale, MA 02131&markers=4249 Washington Street,Roslindale, MA 02131&zoom=14&size=200x150" alt="Romano&#39;s Pizza and Taqueria"/>
-           <p></p>
-           <address>4249 Washington Street,Roslindale, MA 02131</address>
-           <p></p>
+    <h4 class="bg-primary" style="padding: 3px; border-radius: 3px;">
+        &nbsp;Romano&#39;s Pizza and Taqueria
+    </h4>
 
 
-               
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="col-xs-6 text-center">
+    <p></p>
+    <address>4249 Washington Street,Roslindale, MA 02131</address>
+    <p></p>
 
-                <div class="btn-group-vertical">
-                    <a class="btn btn-default" target="_blank" href="http://romanospizzaandtacos.com/"><i class="fa fa-star"></i> Website</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.allmenus.com/ma/boston/307907-romanos-pizzeria--taqueria/menu/"><i class="fa fa-cutlery"></i> Menu</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.yelp.com/biz/romanos-pizzeria-and-taqueria-roslindale"><i class="fa fa-yelp"></i> Yelp</a>
-                </div>
 
-            </div>        
-            <div class="col-xs-6 text-center">
-                  <div class="btn-group-vertical">
-                      <a class="btn btn-default" target= "_blank" href="https://www.google.com/search?site=&tbm=isch&q=Romano&#39;s Pizza and Taqueria burrito Roslindale"><i class="fa fa-picture-o"></i> Pictures</a>
-                      <a class="btn btn-default" target= "_blank" href="http://maps.google.com/maps?daddr=4249 Washington Street,Roslindale, MA 02131"><i class="fa fa-map-marker"></i> Directions</a>
-                  </div>
-            </div>
-        </div>
-        
-        <div class="col-xs-12 col-sm-12 col-md-8"></div>
-
-     </div>
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.yelp.com/biz/romanos-pizzeria-and-taqueria-roslindale"><i class="fa fa-yelp"></i> Yelp</a>
     </div>
-  </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://romanospizzaandtacos.com/"><i class="fa fa-star"></i> Website</a>
+        <a class="btn btn-default" target="_blank" href="http://www.allmenus.com/ma/boston/307907-romanos-pizzeria--taqueria/menu/"><i class="fa fa-cutlery"></i> Menu</a>
+    </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="https://www.google.com/search?site=&tbm=isch&q=Romano&#39;s Pizza and Taqueria burrito Roslindale"><i class="fa fa-picture-o"></i> Pictures</a>
+        <a class="btn btn-default" target="_blank" href="http://maps.google.com/maps?daddr=4249 Washington Street,Roslindale, MA 02131"><i class="fa fa-map-marker"></i> Directions</a>
+    </div>
+
+
 </div>
 
-    
-      <div class="panel panel-default">
-    <a data-toggle="collapse" data-parent="#accordion" href="#Taco LocoSomerville" style="text-decoration: none; color:#000000;">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#taco-locoSomerville">
-                Taco Loco - Somerville
-                </a>
-            </h3>
-        </div>
-    </a>
-    <div id="taco-locoSomerville" class="panel-collapse collapse">
-    <div class="panel-body">
-    <div class="row">
+      </script>
 
-       <div class="col-xs-12 col-sm-6 col-md-4">
+<script type=text id='546038de35bce7231490133d'>
+       <div class="scrollFix">
 
-           <img border="0" src="https://maps.googleapis.com/maps/api/staticmap?center=44 Broadway,Somerville, MA 02145&markers=44 Broadway,Somerville, MA 02145&zoom=14&size=200x150" alt="Taco Loco"/>
-           <p></p>
-           <address>44 Broadway,Somerville, MA 02145</address>
-           <p>7am - 11pm Daily</p>
+    <h4 class="bg-primary" style="padding: 3px; border-radius: 3px;">
+        &nbsp;Taco Loco
+    </h4>
 
 
-               
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="col-xs-6 text-center">
+    <p></p>
+    <address>44 Broadway,Somerville, MA 02145</address>
+    <p></p>
 
-                <div class="btn-group-vertical">
-                    <a class="btn btn-default" target="_blank" href="http://www.tacolocomexicangrill.com/"><i class="fa fa-star"></i> Website</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.tacolocomexicangrill.com/menu/"><i class="fa fa-cutlery"></i> Menu</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.yelp.com/biz/taco-loco-somerville"><i class="fa fa-yelp"></i> Yelp</a>
-                </div>
 
-            </div>        
-            <div class="col-xs-6 text-center">
-                  <div class="btn-group-vertical">
-                      <a class="btn btn-default" target= "_blank" href="https://www.google.com/search?site=&tbm=isch&q=Taco Loco burrito Somerville"><i class="fa fa-picture-o"></i> Pictures</a>
-                      <a class="btn btn-default" target= "_blank" href="http://maps.google.com/maps?daddr=44 Broadway,Somerville, MA 02145"><i class="fa fa-map-marker"></i> Directions</a>
-                  </div>
-            </div>
-        </div>
-        
-        <div class="col-xs-12 col-sm-12 col-md-8"></div>
-
-     </div>
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.yelp.com/biz/taco-loco-somerville"><i class="fa fa-yelp"></i> Yelp</a>
     </div>
-  </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.tacolocomexicangrill.com/"><i class="fa fa-star"></i> Website</a>
+        <a class="btn btn-default" target="_blank" href="http://www.tacolocomexicangrill.com/menu/"><i class="fa fa-cutlery"></i> Menu</a>
+    </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="https://www.google.com/search?site=&tbm=isch&q=Taco Loco burrito Somerville"><i class="fa fa-picture-o"></i> Pictures</a>
+        <a class="btn btn-default" target="_blank" href="http://maps.google.com/maps?daddr=44 Broadway,Somerville, MA 02145"><i class="fa fa-map-marker"></i> Directions</a>
+    </div>
+
+
 </div>
 
-    
-      <div class="panel panel-default">
-    <a data-toggle="collapse" data-parent="#accordion" href="#Taqueria CancunEast Boston" style="text-decoration: none; color:#000000;">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#taqueria-cancunEast Boston">
-                Taqueria Cancun - East Boston
-                </a>
-            </h3>
-        </div>
-    </a>
-    <div id="taqueria-cancunEast Boston" class="panel-collapse collapse">
-    <div class="panel-body">
-    <div class="row">
+      </script>
 
-       <div class="col-xs-12 col-sm-6 col-md-4">
+<script type=text id='546038de35bce7231490133e'>
+       <div class="scrollFix">
 
-           <img border="0" src="https://maps.googleapis.com/maps/api/staticmap?center=192 Sumner St., East Boston, MA 02128&markers=192 Sumner St., East Boston, MA 02128&zoom=14&size=200x150" alt="Taqueria Cancun"/>
-           <p></p>
-           <address>192 Sumner St., East Boston, MA 02128</address>
-           <p>9am - 11:30pm M-F, 8am - 11:30pm Sa-Su</p>
+    <h4 class="bg-primary" style="padding: 3px; border-radius: 3px;">
+        &nbsp;Taqueria Cancun
+    </h4>
 
 
-               
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="col-xs-6 text-center">
+    <p></p>
+    <address>192 Sumner St., East Boston, MA 02128</address>
+    <p></p>
 
-                <div class="btn-group-vertical">
-                    <a class="btn btn-default" target="_blank" href="http://www.urbanspoon.com/cities/4-boston/restaurants/54566-taqueria-cancun/menu"><i class="fa fa-star"></i> Website</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.urbanspoon.com/cities/4-boston/restaurants/54566-taqueria-cancun/menu"><i class="fa fa-cutlery"></i> Menu</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.yelp.com/biz/taqueria-cancun-boston"><i class="fa fa-yelp"></i> Yelp</a>
-                </div>
 
-            </div>        
-            <div class="col-xs-6 text-center">
-                  <div class="btn-group-vertical">
-                      <a class="btn btn-default" target= "_blank" href="https://www.google.com/search?site=&tbm=isch&q=Taqueria Cancun burrito East Boston"><i class="fa fa-picture-o"></i> Pictures</a>
-                      <a class="btn btn-default" target= "_blank" href="http://maps.google.com/maps?daddr=192 Sumner St., East Boston, MA 02128"><i class="fa fa-map-marker"></i> Directions</a>
-                  </div>
-            </div>
-        </div>
-        
-        <div class="col-xs-12 col-sm-12 col-md-8"></div>
-
-     </div>
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.yelp.com/biz/taqueria-cancun-boston"><i class="fa fa-yelp"></i> Yelp</a>
     </div>
-  </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.urbanspoon.com/cities/4-boston/restaurants/54566-taqueria-cancun/menu"><i class="fa fa-star"></i> Website</a>
+        <a class="btn btn-default" target="_blank" href="http://www.urbanspoon.com/cities/4-boston/restaurants/54566-taqueria-cancun/menu"><i class="fa fa-cutlery"></i> Menu</a>
+    </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="https://www.google.com/search?site=&tbm=isch&q=Taqueria Cancun burrito East Boston"><i class="fa fa-picture-o"></i> Pictures</a>
+        <a class="btn btn-default" target="_blank" href="http://maps.google.com/maps?daddr=192 Sumner St., East Boston, MA 02128"><i class="fa fa-map-marker"></i> Directions</a>
+    </div>
+
+
 </div>
 
-    
-      <div class="panel panel-default">
-    <a data-toggle="collapse" data-parent="#accordion" href="#Taqueria JaliscoBoston" style="text-decoration: none; color:#000000;">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#taqueria-jaliscoBoston">
-                Taqueria Jalisco - Boston
-                </a>
-            </h3>
-        </div>
-    </a>
-    <div id="taqueria-jaliscoBoston" class="panel-collapse collapse">
-    <div class="panel-body">
-    <div class="row">
+      </script>
 
-       <div class="col-xs-12 col-sm-6 col-md-4">
+<script type=text id='545afe6935bce71c8c7e03be'>
+       <div class="scrollFix">
 
-           <img border="0" src="https://maps.googleapis.com/maps/api/staticmap?center=291 Bennington St.,Boston, MA 02128&markers=291 Bennington St.,Boston, MA 02128&zoom=14&size=200x150" alt="Taqueria Jalisco"/>
-           <p></p>
-           <address>291 Bennington St.,Boston, MA 02128</address>
-           <p>10am - 10pm Daily</p>
+    <h4 class="bg-primary" style="padding: 3px; border-radius: 3px;">
+        &nbsp;Taqueria Jalisco
+    </h4>
 
 
-               
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="col-xs-6 text-center">
+    <p></p>
+    <address>291 Bennington St.,Boston, MA 02128</address>
+    <p></p>
 
-                <div class="btn-group-vertical">
-                    <a class="btn btn-default" target="_blank" href="http://boston.menupages.com/restaurants/taqueria-jalisco/"><i class="fa fa-star"></i> Website</a>
-                    <a class="btn btn-default" target = "_blank" href="http://boston.menupages.com/restaurants/taqueria-jalisco/"><i class="fa fa-cutlery"></i> Menu</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.yelp.com/biz/taqueria-jalisco-boston-2"><i class="fa fa-yelp"></i> Yelp</a>
-                </div>
 
-            </div>        
-            <div class="col-xs-6 text-center">
-                  <div class="btn-group-vertical">
-                      <a class="btn btn-default" target= "_blank" href="https://www.google.com/search?site=&tbm=isch&q=Taqueria Jalisco burrito Boston"><i class="fa fa-picture-o"></i> Pictures</a>
-                      <a class="btn btn-default" target= "_blank" href="http://maps.google.com/maps?daddr=291 Bennington St.,Boston, MA 02128"><i class="fa fa-map-marker"></i> Directions</a>
-                  </div>
-            </div>
-        </div>
-        
-        <div class="col-xs-12 col-sm-12 col-md-8"></div>
-
-     </div>
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.yelp.com/biz/taqueria-jalisco-boston-2"><i class="fa fa-yelp"></i> Yelp</a>
     </div>
-  </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://boston.menupages.com/restaurants/taqueria-jalisco/"><i class="fa fa-star"></i> Website</a>
+        <a class="btn btn-default" target="_blank" href="http://boston.menupages.com/restaurants/taqueria-jalisco/"><i class="fa fa-cutlery"></i> Menu</a>
+    </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="https://www.google.com/search?site=&tbm=isch&q=Taqueria Jalisco burrito Boston"><i class="fa fa-picture-o"></i> Pictures</a>
+        <a class="btn btn-default" target="_blank" href="http://maps.google.com/maps?daddr=291 Bennington St.,Boston, MA 02128"><i class="fa fa-map-marker"></i> Directions</a>
+    </div>
+
+
 </div>
 
-    
-      <div class="panel panel-default">
-    <a data-toggle="collapse" data-parent="#accordion" href="#TenochMedford" style="text-decoration: none; color:#000000;">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#tenochMedford">
-                Tenoch - Medford
-                </a>
-            </h3>
-        </div>
-    </a>
-    <div id="tenochMedford" class="panel-collapse collapse">
-    <div class="panel-body">
-    <div class="row">
+      </script>
 
-       <div class="col-xs-12 col-sm-6 col-md-4">
+<script type=text id='5447252835bce72964957ba7'>
+       <div class="scrollFix">
 
-           <img border="0" src="https://maps.googleapis.com/maps/api/staticmap?center=24 Riverside Ave., Medford, MA&markers=24 Riverside Ave., Medford, MA&zoom=14&size=200x150" alt="Tenoch"/>
-           <p>Great burritos and tortas</p>
-           <address>24 Riverside Ave., Medford, MA</address>
-           <p>8 am - 9 pm, 7 days a week</p>
+    <h4 class="bg-primary" style="padding: 3px; border-radius: 3px;">
+        &nbsp;Tenoch
+    </h4>
 
 
-               
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="col-xs-6 text-center">
+    <p>Great burritos and tortas</p>
+    <address>24 Riverside Ave., Medford, MA</address>
+    <p></p>
 
-                <div class="btn-group-vertical">
-                    <a class="btn btn-default" target="_blank" href="http://www.tenochmexican.com/"><i class="fa fa-star"></i> Website</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.tenochmexican.com/menu/"><i class="fa fa-cutlery"></i> Menu</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.yelp.com/biz/tenoch-mexican-medford"><i class="fa fa-yelp"></i> Yelp</a>
-                </div>
 
-            </div>        
-            <div class="col-xs-6 text-center">
-                  <div class="btn-group-vertical">
-                      <a class="btn btn-default" target= "_blank" href="https://www.google.com/search?site=&tbm=isch&q=Tenoch burrito Medford"><i class="fa fa-picture-o"></i> Pictures</a>
-                      <a class="btn btn-default" target= "_blank" href="http://maps.google.com/maps?daddr=24 Riverside Ave., Medford, MA"><i class="fa fa-map-marker"></i> Directions</a>
-                  </div>
-            </div>
-        </div>
-        
-        <div class="col-xs-12 col-sm-12 col-md-8"></div>
-
-     </div>
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.yelp.com/biz/tenoch-mexican-medford"><i class="fa fa-yelp"></i> Yelp</a>
     </div>
-  </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.tenochmexican.com/"><i class="fa fa-star"></i> Website</a>
+        <a class="btn btn-default" target="_blank" href="http://www.tenochmexican.com/menu/"><i class="fa fa-cutlery"></i> Menu</a>
+    </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="https://www.google.com/search?site=&tbm=isch&q=Tenoch burrito Medford"><i class="fa fa-picture-o"></i> Pictures</a>
+        <a class="btn btn-default" target="_blank" href="http://maps.google.com/maps?daddr=24 Riverside Ave., Medford, MA"><i class="fa fa-map-marker"></i> Directions</a>
+    </div>
+
+
 </div>
 
-    
-      <div class="panel panel-default">
-    <a data-toggle="collapse" data-parent="#accordion" href="#TenochBoston" style="text-decoration: none; color:#000000;">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#tenochBoston">
-                Tenoch - Boston
-                </a>
-            </h3>
-        </div>
-    </a>
-    <div id="tenochBoston" class="panel-collapse collapse">
-    <div class="panel-body">
-    <div class="row">
+      </script>
 
-       <div class="col-xs-12 col-sm-6 col-md-4">
+<script type=text id='5456fb9635bce71c8c7e03a4'>
+       <div class="scrollFix">
 
-           <img border="0" src="https://maps.googleapis.com/maps/api/staticmap?center=3 Lewis St, Boston, MA&markers=3 Lewis St, Boston, MA&zoom=14&size=200x150" alt="Tenoch"/>
-           <p></p>
-           <address>3 Lewis St, Boston, MA</address>
-           <p>11 am - 9 pm, 7 days a week</p>
+    <h4 class="bg-primary" style="padding: 3px; border-radius: 3px;">
+        &nbsp;Tenoch
+    </h4>
 
 
-               
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="col-xs-6 text-center">
+    <p></p>
+    <address>3 Lewis St, Boston, MA</address>
+    <p></p>
 
-                <div class="btn-group-vertical">
-                    <a class="btn btn-default" target="_blank" href="http://www.tenochmexican.com/"><i class="fa fa-star"></i> Website</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.tenochmexican.com/menu/"><i class="fa fa-cutlery"></i> Menu</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.yelp.com/biz/tenoch-mexican-boston"><i class="fa fa-yelp"></i> Yelp</a>
-                </div>
 
-            </div>        
-            <div class="col-xs-6 text-center">
-                  <div class="btn-group-vertical">
-                      <a class="btn btn-default" target= "_blank" href="https://www.google.com/search?site=&tbm=isch&q=Tenoch burrito Boston"><i class="fa fa-picture-o"></i> Pictures</a>
-                      <a class="btn btn-default" target= "_blank" href="http://maps.google.com/maps?daddr=3 Lewis St, Boston, MA"><i class="fa fa-map-marker"></i> Directions</a>
-                  </div>
-            </div>
-        </div>
-        
-        <div class="col-xs-12 col-sm-12 col-md-8"></div>
-
-     </div>
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.yelp.com/biz/tenoch-mexican-boston"><i class="fa fa-yelp"></i> Yelp</a>
     </div>
-  </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.tenochmexican.com/"><i class="fa fa-star"></i> Website</a>
+        <a class="btn btn-default" target="_blank" href="http://www.tenochmexican.com/menu/"><i class="fa fa-cutlery"></i> Menu</a>
+    </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="https://www.google.com/search?site=&tbm=isch&q=Tenoch burrito Boston"><i class="fa fa-picture-o"></i> Pictures</a>
+        <a class="btn btn-default" target="_blank" href="http://maps.google.com/maps?daddr=3 Lewis St, Boston, MA"><i class="fa fa-map-marker"></i> Directions</a>
+    </div>
+
+
 </div>
 
-    
-      <div class="panel panel-default">
-    <a data-toggle="collapse" data-parent="#accordion" href="#The Purple CactusJamaica Plain" style="text-decoration: none; color:#000000;">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#the-purple-cactusJamaica Plain">
-                The Purple Cactus - Jamaica Plain
-                </a>
-            </h3>
-        </div>
-    </a>
-    <div id="the-purple-cactusJamaica Plain" class="panel-collapse collapse">
-    <div class="panel-body">
-    <div class="row">
+      </script>
 
-       <div class="col-xs-12 col-sm-6 col-md-4">
+<script type=text id='546038de35bce7231490133b'>
+       <div class="scrollFix">
 
-           <img border="0" src="https://maps.googleapis.com/maps/api/staticmap?center=674 Centre Street,Jamaica Plain, MA 02130&markers=674 Centre Street,Jamaica Plain, MA 02130&zoom=14&size=200x150" alt="The Purple Cactus"/>
-           <p></p>
-           <address>674 Centre Street,Jamaica Plain, MA 02130</address>
-           <p>9am - 10pm Daily</p>
+    <h4 class="bg-primary" style="padding: 3px; border-radius: 3px;">
+        &nbsp;The Purple Cactus
+    </h4>
 
 
-               
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="col-xs-6 text-center">
+    <p></p>
+    <address>674 Centre Street,Jamaica Plain, MA 02130</address>
+    <p></p>
 
-                <div class="btn-group-vertical">
-                    <a class="btn btn-default" target="_blank" href="http://www.thepurplecactus.com/index.html"><i class="fa fa-star"></i> Website</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.thepurplecactus.com/pages/menu_burritos.html"><i class="fa fa-cutlery"></i> Menu</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.yelp.com/biz/purple-cactus-burrito-and-wrap-bar-jamaica-plain"><i class="fa fa-yelp"></i> Yelp</a>
-                </div>
 
-            </div>        
-            <div class="col-xs-6 text-center">
-                  <div class="btn-group-vertical">
-                      <a class="btn btn-default" target= "_blank" href="https://www.google.com/search?site=&tbm=isch&q=The Purple Cactus burrito Jamaica Plain"><i class="fa fa-picture-o"></i> Pictures</a>
-                      <a class="btn btn-default" target= "_blank" href="http://maps.google.com/maps?daddr=674 Centre Street,Jamaica Plain, MA 02130"><i class="fa fa-map-marker"></i> Directions</a>
-                  </div>
-            </div>
-        </div>
-        
-        <div class="col-xs-12 col-sm-12 col-md-8"></div>
-
-     </div>
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.yelp.com/biz/purple-cactus-burrito-and-wrap-bar-jamaica-plain"><i class="fa fa-yelp"></i> Yelp</a>
     </div>
-  </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.thepurplecactus.com/index.html"><i class="fa fa-star"></i> Website</a>
+        <a class="btn btn-default" target="_blank" href="http://www.thepurplecactus.com/pages/menu_burritos.html"><i class="fa fa-cutlery"></i> Menu</a>
+    </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="https://www.google.com/search?site=&tbm=isch&q=The Purple Cactus burrito Jamaica Plain"><i class="fa fa-picture-o"></i> Pictures</a>
+        <a class="btn btn-default" target="_blank" href="http://maps.google.com/maps?daddr=674 Centre Street,Jamaica Plain, MA 02130"><i class="fa fa-map-marker"></i> Directions</a>
+    </div>
+
+
 </div>
 
-    
-      <div class="panel panel-default">
-    <a data-toggle="collapse" data-parent="#accordion" href="#Three AmigosStoneham" style="text-decoration: none; color:#000000;">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#three-amigosStoneham">
-                Three Amigos - Stoneham
-                </a>
-            </h3>
-        </div>
-    </a>
-    <div id="three-amigosStoneham" class="panel-collapse collapse">
-    <div class="panel-body">
-    <div class="row">
+      </script>
 
-       <div class="col-xs-12 col-sm-6 col-md-4">
+<script type=text id='5459b59e35bce71c8c7e03ac'>
+       <div class="scrollFix">
 
-           <img border="0" src="https://maps.googleapis.com/maps/api/staticmap?center=125 Main St, Stoneham, MA&markers=125 Main St, Stoneham, MA&zoom=14&size=200x150" alt="Three Amigos"/>
-           <p></p>
-           <address>125 Main St, Stoneham, MA</address>
-           <p>11 am - 9 pm, M-W&lt;br/&gt;11 am - 10 pm, Th-Sa&lt;br/&gt; 12pm - 9pm, Su</p>
+    <h4 class="bg-primary" style="padding: 3px; border-radius: 3px;">
+        &nbsp;Viva Burrito
+    </h4>
 
 
-               
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="col-xs-6 text-center">
+    <p></p>
+    <address>66 Staniford Street, Boston, MA</address>
+    <p></p>
 
-                <div class="btn-group-vertical">
-                    <a class="btn btn-default" target="_blank" href="http://www.yelp.com/biz/three-amigos-stoneham"><i class="fa fa-star"></i> Website</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.menulizard.com/menus/251-three-amigos/"><i class="fa fa-cutlery"></i> Menu</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.yelp.com/biz/three-amigos-stoneham"><i class="fa fa-yelp"></i> Yelp</a>
-                </div>
 
-            </div>        
-            <div class="col-xs-6 text-center">
-                  <div class="btn-group-vertical">
-                      <a class="btn btn-default" target= "_blank" href="https://www.google.com/search?site=&tbm=isch&q=Three Amigos burrito Stoneham"><i class="fa fa-picture-o"></i> Pictures</a>
-                      <a class="btn btn-default" target= "_blank" href="http://maps.google.com/maps?daddr=125 Main St, Stoneham, MA"><i class="fa fa-map-marker"></i> Directions</a>
-                  </div>
-            </div>
-        </div>
-        
-        <div class="col-xs-12 col-sm-12 col-md-8"></div>
-
-     </div>
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.yelp.com/biz/viva-burrito-boston"><i class="fa fa-yelp"></i> Yelp</a>
     </div>
-  </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.vivaburrito.com/"><i class="fa fa-star"></i> Website</a>
+        <a class="btn btn-default" target="_blank" href="http://www.vivaburrito.com/menu.html"><i class="fa fa-cutlery"></i> Menu</a>
+    </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="https://www.google.com/search?site=&tbm=isch&q=Viva Burrito burrito Boston"><i class="fa fa-picture-o"></i> Pictures</a>
+        <a class="btn btn-default" target="_blank" href="http://maps.google.com/maps?daddr=66 Staniford Street, Boston, MA"><i class="fa fa-map-marker"></i> Directions</a>
+    </div>
+
+
 </div>
 
-    
-      <div class="panel panel-default">
-    <a data-toggle="collapse" data-parent="#accordion" href="#Viva BurritoBoston" style="text-decoration: none; color:#000000;">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#viva-burritoBoston">
-                Viva Burrito - Boston
-                </a>
-            </h3>
-        </div>
-    </a>
-    <div id="viva-burritoBoston" class="panel-collapse collapse">
-    <div class="panel-body">
-    <div class="row">
+      </script>
 
-       <div class="col-xs-12 col-sm-6 col-md-4">
+<script type=text id='546038df35bce7231490133f'>
+       <div class="scrollFix">
 
-           <img border="0" src="https://maps.googleapis.com/maps/api/staticmap?center=66 Staniford Street, Boston, MA&markers=66 Staniford Street, Boston, MA&zoom=14&size=200x150" alt="Viva Burrito"/>
-           <p></p>
-           <address>66 Staniford Street, Boston, MA</address>
-           <p>10:30 am - 11 pm, M-Sa&lt;br/&gt;11 am - 10 pm, Su</p>
+    <h4 class="bg-primary" style="padding: 3px; border-radius: 3px;">
+        &nbsp;Wapo Taco
+    </h4>
 
 
-               
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="col-xs-6 text-center">
+    <p></p>
+    <address>37 Poplar St, Roslindale, MA 02131</address>
+    <p></p>
 
-                <div class="btn-group-vertical">
-                    <a class="btn btn-default" target="_blank" href="http://www.vivaburrito.com/"><i class="fa fa-star"></i> Website</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.vivaburrito.com/menu.html"><i class="fa fa-cutlery"></i> Menu</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.yelp.com/biz/viva-burrito-boston"><i class="fa fa-yelp"></i> Yelp</a>
-                </div>
 
-            </div>        
-            <div class="col-xs-6 text-center">
-                  <div class="btn-group-vertical">
-                      <a class="btn btn-default" target= "_blank" href="https://www.google.com/search?site=&tbm=isch&q=Viva Burrito burrito Boston"><i class="fa fa-picture-o"></i> Pictures</a>
-                      <a class="btn btn-default" target= "_blank" href="http://maps.google.com/maps?daddr=66 Staniford Street, Boston, MA"><i class="fa fa-map-marker"></i> Directions</a>
-                  </div>
-            </div>
-        </div>
-        
-        <div class="col-xs-12 col-sm-12 col-md-8"></div>
-
-     </div>
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.yelp.com/biz/the-wapo-taco-roslindale"><i class="fa fa-yelp"></i> Yelp</a>
     </div>
-  </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.urbanspoon.com/cities/4/restaurants/54910/menu_photos/116779"><i class="fa fa-star"></i> Website</a>
+        <a class="btn btn-default" target="_blank" href="http://www.urbanspoon.com/cities/4/restaurants/54910/menu_photos/116779"><i class="fa fa-cutlery"></i> Menu</a>
+    </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="https://www.google.com/search?site=&tbm=isch&q=Wapo Taco burrito Roslindale"><i class="fa fa-picture-o"></i> Pictures</a>
+        <a class="btn btn-default" target="_blank" href="http://maps.google.com/maps?daddr=37 Poplar St, Roslindale, MA 02131"><i class="fa fa-map-marker"></i> Directions</a>
+    </div>
+
+
 </div>
 
-    
-      <div class="panel panel-default">
-    <a data-toggle="collapse" data-parent="#accordion" href="#Wapo TacoRoslindale" style="text-decoration: none; color:#000000;">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#wapo-tacoRoslindale">
-                Wapo Taco - Roslindale
-                </a>
-            </h3>
-        </div>
-    </a>
-    <div id="wapo-tacoRoslindale" class="panel-collapse collapse">
-    <div class="panel-body">
-    <div class="row">
+      </script>
 
-       <div class="col-xs-12 col-sm-6 col-md-4">
+<script type=text id='545afe6935bce71c8c7e03b8'>
+       <div class="scrollFix">
 
-           <img border="0" src="https://maps.googleapis.com/maps/api/staticmap?center=37 Poplar St, Roslindale, MA 02131&markers=37 Poplar St, Roslindale, MA 02131&zoom=14&size=200x150" alt="Wapo Taco"/>
-           <p></p>
-           <address>37 Poplar St, Roslindale, MA 02131</address>
-           <p></p>
+    <h4 class="bg-primary" style="padding: 3px; border-radius: 3px;">
+        &nbsp;Zocalo Cocina Mexicana
+    </h4>
 
 
-               
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="col-xs-6 text-center">
+    <p></p>
+    <address>35 Stanhope St.,Boston, MA</address>
+    <p></p>
 
-                <div class="btn-group-vertical">
-                    <a class="btn btn-default" target="_blank" href="http://www.urbanspoon.com/cities/4/restaurants/54910/menu_photos/116779"><i class="fa fa-star"></i> Website</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.urbanspoon.com/cities/4/restaurants/54910/menu_photos/116779"><i class="fa fa-cutlery"></i> Menu</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.yelp.com/biz/the-wapo-taco-roslindale"><i class="fa fa-yelp"></i> Yelp</a>
-                </div>
 
-            </div>        
-            <div class="col-xs-6 text-center">
-                  <div class="btn-group-vertical">
-                      <a class="btn btn-default" target= "_blank" href="https://www.google.com/search?site=&tbm=isch&q=Wapo Taco burrito Roslindale"><i class="fa fa-picture-o"></i> Pictures</a>
-                      <a class="btn btn-default" target= "_blank" href="http://maps.google.com/maps?daddr=37 Poplar St, Roslindale, MA 02131"><i class="fa fa-map-marker"></i> Directions</a>
-                  </div>
-            </div>
-        </div>
-        
-        <div class="col-xs-12 col-sm-12 col-md-8"></div>
-
-     </div>
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.yelp.com/biz/z%C3%B3calo-mexican-bistro-and-tequila-bar-boston"><i class="fa fa-yelp"></i> Yelp</a>
     </div>
-  </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="http://www.zocalobackbay.com/"><i class="fa fa-star"></i> Website</a>
+        <a class="btn btn-default" target="_blank" href="http://www.zocalobackbay.com/food-menu/"><i class="fa fa-cutlery"></i> Menu</a>
+    </div>
+    <p></p>
+
+    <div class="btn-group">
+        <a class="btn btn-default" target="_blank" href="https://www.google.com/search?site=&tbm=isch&q=Zocalo Cocina Mexicana burrito Boston"><i class="fa fa-picture-o"></i> Pictures</a>
+        <a class="btn btn-default" target="_blank" href="http://maps.google.com/maps?daddr=35 Stanhope St.,Boston, MA"><i class="fa fa-map-marker"></i> Directions</a>
+    </div>
+
+
 </div>
 
-    
-      <div class="panel panel-default">
-    <a data-toggle="collapse" data-parent="#accordion" href="#Zocalo Cocina MexicanaBoston" style="text-decoration: none; color:#000000;">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#zocalo-cocina-mexicanaBoston">
-                Zocalo Cocina Mexicana - Boston
-                </a>
-            </h3>
-        </div>
-    </a>
-    <div id="zocalo-cocina-mexicanaBoston" class="panel-collapse collapse">
-    <div class="panel-body">
-    <div class="row">
-
-       <div class="col-xs-12 col-sm-6 col-md-4">
-
-           <img border="0" src="https://maps.googleapis.com/maps/api/staticmap?center=35 Stanhope St.,Boston, MA&markers=35 Stanhope St.,Boston, MA&zoom=14&size=200x150" alt="Zocalo Cocina Mexicana"/>
-           <p></p>
-           <address>35 Stanhope St.,Boston, MA</address>
-           <p>Lunch 11:30am - 3pm M-F, Dinner 5pm - 11pm Daily</p>
+      </script>
 
 
-               
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="col-xs-6 text-center">
+<script type="text/javascript">
+    var showSites = function(filter) {
 
-                <div class="btn-group-vertical">
-                    <a class="btn btn-default" target="_blank" href="http://www.zocalobackbay.com/"><i class="fa fa-star"></i> Website</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.zocalobackbay.com/food-menu/"><i class="fa fa-cutlery"></i> Menu</a>
-                    <a class="btn btn-default" target = "_blank" href="http://www.yelp.com/biz/z%C3%B3calo-mexican-bistro-and-tequila-bar-boston"><i class="fa fa-yelp"></i> Yelp</a>
-                </div>
 
-            </div>        
-            <div class="col-xs-6 text-center">
-                  <div class="btn-group-vertical">
-                      <a class="btn btn-default" target= "_blank" href="https://www.google.com/search?site=&tbm=isch&q=Zocalo Cocina Mexicana burrito Boston"><i class="fa fa-picture-o"></i> Pictures</a>
-                      <a class="btn btn-default" target= "_blank" href="http://maps.google.com/maps?daddr=35 Stanhope St.,Boston, MA"><i class="fa fa-map-marker"></i> Directions</a>
-                  </div>
-            </div>
-        </div>
+        var locations = [
         
-        <div class="col-xs-12 col-sm-12 col-md-8"></div>
-
-     </div>
-    </div>
-  </div>
-</div>
-
+            ['Anna&#39;s Taqueria (Coolidge Corner)', 42.341324, -71.125599, '', '1412 Beacon Street, Brookline, MA', 'http://www.annastaqueria.com/', '545701c535bce71c8c7e03a6', 'Brookline']
+    ,
+        
+            ['Anna&#39;s Taqueria (Davis)', 42.394875, -71.121836, '', '236A Elm Street, Somerville, MA', 'http://www.annastaqueria.com/', '545701c535bce71c8c7e03aa', 'Somerville']
+    ,
+        
+            ['Anna&#39;s Taqueria (JFK Corner)', 42.346067, -71.12809, '', '446 Harvard Street, Brookline, MA', 'http://www.annastaqueria.com/', '545701c535bce71c8c7e03a7', 'Brookline']
+    ,
+        
+            ['Anna&#39;s Taqueria (MGH)', 42.3551526, -71.0649715, '', '242 Cambridge Street, Boston, MA', 'http://www.annastaqueria.com/', '545701c535bce71c8c7e03ab', 'Boston']
+    ,
+        
+            ['Anna&#39;s Taqueria (MIT)', 42.359182, -71.094576, '', '84 Massachusetts Avenue, Cambridge, MA', 'http://www.annastaqueria.com/', '545701c535bce71c8c7e03a9', 'Cambridge']
+    ,
+        
+            ['Anna&#39;s Taqueria (Porter)', 42.388552, -71.118507, '', '822 Somerville Avenue, Cambridge, MA', 'http://www.annastaqueria.com/', '545701c535bce71c8c7e03a8', 'Cambridge']
+    ,
+        
+            ['Baja Betty&#39;s Burritos', 42.332989, -71.118456, '', '3 Harvard Sq.,Brookline, MA', 'http://bajabettys.com/', '5459bafb35bce71c8c7e03b2', 'Brookline']
+    ,
+        
+            ['Beantown Taqueria 1', 42.361777, -71.0972528, '', '245 Massachusetts Ave.,Cambridge, MA 02139', 'http://www.beantowntaqueria.com/', '545afe6935bce71c8c7e03bb', 'Cambridge']
+    ,
+        
+            ['Beantown Taqueria 2', 42.360247, -71.0937767, '', '148-150 Western Ave.,Cambridge, MA 02139', 'http://www.beantowntaqueria.com/', '545afe6935bce71c8c7e03bc', 'Cambridge']
+    ,
+        
+            ['Boca Grande (Brighton)', 42.3665695, -71.1160045, '', '366 Washington St., Brighton, MA', 'http://www.bocagranderestaurant.com/', '5459bafc35bce71c8c7e03b7', 'Brighton']
+    ,
+        
+            ['Boca Grande (Coolidge Corner)', 42.3665695, -71.1160045, '', '1294 Beacon St.,Brookline, MA', 'http://www.bocagranderestaurant.com/', '5459bafb35bce71c8c7e03b4', 'Brookline']
+    ,
+        
+            ['Boca Grande (Lechmere)', 42.3664, -71.0782, '', '149 First Street, Cambridge, MA', 'http://www.bocagranderestaurant.com/', '5459bafc35bce71c8c7e03b6', 'Cambridge']
+    ,
+        
+            ['Boca Grande (Porter)', 42.3781735, -71.1236434, '', '1728 Massachusetts Ave., Cambridge, MA', 'http://www.bocagranderestaurant.com/', '5459bafc35bce71c8c7e03b5', 'Cambridge']
+    ,
+        
+            ['El Paso Enchiladas', 42.35949, -71.054463, '', '2135 Faneuil Hall Market Place,Boston, MA 02109', 'http://www.elpasoenchiladas.com/index.html', '545afe6935bce71c8c7e03ba', 'Boston']
+    ,
+        
+            ['El Pelon Taqueria (Brighton)', 42.340235, -71.166489, '', '2197 Comm Ave., Brighton, MA', 'http://www.elpelon.com/', '5459b59e35bce71c8c7e03af', 'Brighton']
+    ,
+        
+            ['El Pelon Taqueria (Fenway)', 42.343085, -71.099076, '', '92 Peterborough St, Boston, MA', 'http://www.elpelon.com/', '5459b59e35bce71c8c7e03b0', 'Boston']
+    ,
+        
+            ['El Triunfo', 42.343514, -71.064796, '', '147 E Berkeley St., Boston, MA 02118', 'http://www.eltriunfo-boston.com/', '545afe6935bce71c8c7e03b9', 'Boston']
+    ,
+        
+            ['Felipe&#39;s Taqueria', 42.372538, -71.119687, '', '33 Brattle St., Cambridge, MA 02138', 'http://www.felipestaqueria.com/', '546038de35bce72314901337', 'Boston']
+    ,
+        
+            ['La Victoria (Arlington)', 42.4150183, -71.1509159, '', '12 Medford Street, Arlington, MA', 'http://www.victoriataqueria.com/', '546038df35bce72314901340', 'Arlington']
+    ,
+        
+            ['Maria&#39;s Taqueria', 42.351412, -71.064651, '', '226 Tremont St, Boston 02116', 'http://boston.menupages.com/restaurants/marias-taqueria/menu', '545afe6935bce71c8c7e03bd', 'Boston']
+    ,
+        
+            ['MexiCali Burrito Co.', 42.363372, -71.092594, '', '500 Technology Square, Cambridge, MA', 'http://www.mexicaliburrito.com/', '5459b59e35bce71c8c7e03ad', 'Cambridge']
+    ,
+        
+            ['MexiCali Burrito Co. Cabana', 42.363429, -71.081986, '', '350 East Kendall Street, Cambridge, MA', 'http://www.mexicaliburrito.com/cabana.php', '5459b59e35bce71c8c7e03ae', 'Cambridge']
+    ,
+        
+            ['Montecristo Mexican Grill', 42.33357, -71.105579, '', '748 Huntington Ave.,Boston, MA', 'http://www.montecristomexicangrill.com/', '5459bafb35bce71c8c7e03b3', 'Boston']
+    ,
+        
+            ['Olecito (Brookline)', 42.334452, -71.123277, '', '6 Cypress Street, Brookline, MA 02445', 'http://www.olerestaurantgroup.com/olecito', '546038de35bce72314901339', 'Brookline']
+    ,
+        
+            ['Olecito (Cambridge)', 42.374059, -71.100086, '', '12 Springfield Street, Cambridge, MA', 'http://www.olerestaurantgroup.com/olecito', '546038de35bce72314901338', 'Cambridge']
+    ,
+        
+            ['Pedro&#39;s Tacos', 42.35699, -71.060751, '', '55 Bromfield St, Boston, MA', 'http://www.pedrostacos.com/', '5459b59e35bce71c8c7e03b1', 'Boston']
+    ,
+        
+            ['Picante Mexican Grill', 42.366383, -71.105043, '', '735 Massachusetts Ave.,Cambridge, MA', 'http://www.picantemex.com/', '546038de35bce7231490133a', 'Cambridge']
+    ,
+        
+            ['Romano&#39;s Pizza and Taqueria', 42.285667, -71.129122, '', '4249 Washington Street,Roslindale, MA 02131', 'http://romanospizzaandtacos.com/', '546038de35bce7231490133c', 'Roslindale']
+    ,
+        
+            ['Taco Loco', 42.386287, -71.07973, '', '44 Broadway,Somerville, MA 02145', 'http://www.tacolocomexicangrill.com/', '546038de35bce7231490133d', 'Somerville']
+    ,
+        
+            ['Taqueria Cancun', 42.369174, -71.040163, '', '192 Sumner St., East Boston, MA 02128', 'http://www.urbanspoon.com/cities/4-boston/restaurants/54566-taqueria-cancun/menu', '546038de35bce7231490133e', 'East Boston']
+    ,
+        
+            ['Taqueria Jalisco', 42.378714, -71.028189, '', '291 Bennington St.,Boston, MA 02128', 'http://boston.menupages.com/restaurants/taqueria-jalisco/', '545afe6935bce71c8c7e03be', 'Boston']
+    ,
+        
+            ['Tenoch', 42.418118, -71.108858, 'Great burritos and tortas', '24 Riverside Ave., Medford, MA', 'http://www.tenochmexican.com/', '5447252835bce72964957ba7', 'Medford']
+    ,
+        
+            ['Tenoch', 42.363301, -71.051821, '', '3 Lewis St, Boston, MA', 'http://www.tenochmexican.com/', '5456fb9635bce71c8c7e03a4', 'Boston']
+    ,
+        
+            ['The Purple Cactus', 42.312155, -71.114008, '', '674 Centre Street,Jamaica Plain, MA 02130', 'http://www.thepurplecactus.com/index.html', '546038de35bce7231490133b', 'Jamaica Plain']
+    ,
+        
+            ['Viva Burrito', 42.363091, -71.064326, '', '66 Staniford Street, Boston, MA', 'http://www.vivaburrito.com/', '5459b59e35bce71c8c7e03ac', 'Boston']
+    ,
+        
+            ['Wapo Taco', 42.286119, -71.128958, '', '37 Poplar St, Roslindale, MA 02131', 'http://www.urbanspoon.com/cities/4/restaurants/54910/menu_photos/116779', '546038df35bce7231490133f', 'Roslindale']
+    ,
+        
+            ['Zocalo Cocina Mexicana', 42.348517, -71.073286, '', '35 Stanhope St.,Boston, MA', 'http://www.zocalobackbay.com/', '545afe6935bce71c8c7e03b8', 'Boston']
     
-    
-  </div>
-  
-  <script type="text/javascript">
-      $(document).ready(function () {
-          location.hash && $(location.hash + '.collapse').collapse('show');
+        
+    ];
+        var map = new google.maps.Map(document.getElementById('map'), {
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            panControl: false,
+            zoomControl: true,
+            mapTypeControl: false,
+            scaleControl: false,
+            streetViewControl: false,
+            overviewMapControl: false
         });
-  </script>
 
 
-      </div>
-    </div>
+        var infowindow = new google.maps.InfoWindow();
+        var bounds = new google.maps.LatLngBounds();
+
+        var marker, i;
+
+        for (i = 0; i < locations.length; i++) {
+            var position = new google.maps.LatLng(locations[i][1], locations[i][2]);
+
+            if (locations[i][7] == filter || filter == 'all' || !filter) {
+                bounds.extend(position);
+
+                marker = new MarkerWithLabel({
+                    position: position,
+                    draggable: false,
+                    map: map,
+                    //   labelContent: locations[i][0],
+                    labelAnchor: new google.maps.Point(7, 37),
+                    labelClass: "maplabels2", // the CSS class for the label
+                    labelStyle: {opacity: 1},
+                    labelInBackground: false,
+                    title: locations[i][0] + '\nClick for more'
+                });
+
+                google.maps.event.addListener(marker, 'click', (function (marker, i) {
+                    return function () {
+                        var contentString = "<h4>" + locations[i][0] + "</h4>" +
+                                locations[i][3] +
+                                "<p><address>" + locations[i][4] + "</address></p>" +
+                                "<a target='_blank' href='" + locations[i][5] + "'>Website</a>";
+                        contentString = $("#" + locations[i][6]).html();
+                        infowindow.setContent(contentString);
+                        infowindow.open(map, marker);
+                    }
+                })(marker, i));
+            }
+
+            map.fitBounds(bounds);
+
+
+        }
+
+    };
+
+    $(function() {
+        showSites('all');
+
+        $("#arlington").click(function() {
+            showSites('Arlington');
+        });
+        $("#boston").click(function() {
+            showSites('Boston');
+        });
+        $("#brighton").click(function() {
+            showSites('Brighton');
+        });
+        $("#brookline").click(function() {
+            showSites('Brookline');
+        });
+        $("#cambridge").click(function() {
+            showSites('Cambridge');
+        });
+        $("#eastboston").click(function() {
+            showSites('East Boston');
+        });
+        $("#jamaicaplain").click(function() {
+            showSites('Jamaica Plain');
+        });
+        $("#medford").click(function() {
+            showSites('Medford');
+        });
+        $("#roslindale").click(function() {
+            showSites('Roslindale');
+        });
+        $("#somerville").click(function() {
+            showSites('Somerville');
+        });
+        $("#all").click(function() {
+            showSites('all');
+        });
+
+
+    });
+</script>
+
+
     
 
     
